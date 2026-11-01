@@ -1,0 +1,10 @@
+# source: PMC13655517 (International Medical Case Reports Journal)
+# license: creativecommons.org/licenses/by-nc/4.0
+# title: Multiple Sclerosis During Pregnancy and the Postpartum Period: Diagnostic and Multidisciplinary Challenges in Two Cases
+
+FINDINGS · Case Presentation
+We report two pregnant women with progressive focal neurological symptoms and radiological findings suggestive of a demyelinating disease. Case 1 involved a 27-year-old woman with a history of autoimmune spondyloarthritis who developed dizziness, gait instability, asymmetric weakness, paraesthesia, and neuropathic pain during pregnancy. She underwent preterm delivery, and postpartum MRI demonstrated juxtacortical hyperintense lesions. Case 2 involved a 24-year-old woman who developed progressive right-sided weakness, visual disturbances, and headache during pregnancy. MRI demonstrated multiple periventricular and subcortical hyperintense lesions. She subsequently experienced spontaneous preterm labor and neurological worsening during the early postpartum period. In both cases, the available clinical and radiological findings raised concern for a demyelinating disorder; however, incomplete diagnostic investigations precluded retrospective confirmation of a definitive multiple sclerosis phenotype.
+
+CONCLUSION · Conclusion
+These two cases highlight the diagnostic and clinical challenges associated with neurological symptoms suggestive of demyelinating disease during pregnancy and the postpartum period. Careful interpretation of clinical and radiological findings, continued postpartum surveillance, individualized obstetric decision-making, and multidisciplinary collaboration are essential. These observations should not be interpreted as evidence of causal relationships between suspected demyelinating disease and adverse obstetric outcomes.
+

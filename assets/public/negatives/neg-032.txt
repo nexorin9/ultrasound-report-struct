@@ -1,0 +1,10 @@
+# source: PMC13641980 (Frontiers in Medicine)
+# license: creativecommons.org/licenses/by/4.0
+# title: Expanding the clinical spectrum of Lemierre syndrome and Lemierre-like septic internal jugular vein thrombophlebitis: a four-case series
+
+FINDINGS · Case presentation
+We describe four patients with classic Lemierre syndrome or Lemierre-like septic internal jugular vein thrombophlebitis managed between 2012 and 2023 at a tertiary care center in Saudi Arabia. Patients ranged in age from 31 to 72 years and had diverse underlying comorbidities. All presented with unilateral neck pain or swelling, and imaging confirmed internal jugular vein thrombosis in all four cases, including one with intracranial extension into the sigmoid and transverse venous sinuses. Deep neck abscesses were identified in three patients. Blood cultures were negative in all cases, while an abscess culture from one patient with poorly controlled diabetes mellitus yielded Klebsiella pneumoniae . Antimicrobial therapy ranged from 3 to 6 weeks. Anticoagulation strategies varied according to thrombus extent, bleeding risk, comorbidities, and overall clinical presentation. All patients experienced favorable clinical outcomes, with follow-up imaging demonstrating thrombus stability, partial recanalization, or complete resolution.
+
+CONCLUSION · Conclusion
+This case series illustrates the broader clinical spectrum of septic internal jugular vein thrombophlebitis, encompassing both classic Lemierre syndrome and Lemierre-like presentations. The cases demonstrate that diagnosis may rely predominantly on compatible clinical and radiological findings despite negative blood cultures. Management should be individualized according to disease severity, thrombus extent, bleeding risk, and patient-specific factors, particularly given the limited evidence guiding anticoagulation in this setting.
+

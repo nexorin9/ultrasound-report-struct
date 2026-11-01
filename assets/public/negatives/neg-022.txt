@@ -1,0 +1,13 @@
+# source: PMC13624138 (Frontiers in Surgery)
+# license: creativecommons.org/licenses/by/4.0
+# title: Symptomatic adjacent-segment epidural hematoma after UNSES for L4/5 lumbar disc herniation: a case report and narrative literature review
+
+FINDINGS · Case presentation
+We reviewed the clinical course, imaging findings, treatment, and outcome of a 56-year-old woman who developed symptomatic adjacent-segment SEH after UNSES for L4/5 lumbar disc herniation. A narrative literature review was also performed to identify similar reports and analyze possible mechanisms.
+
+FINDINGS · Results
+The patient underwent UNSES decompression and discectomy at L4/5 with marked early symptom relief. One week after operation, she developed recurrent left lower-extremity pain and numbness without progressive motor deficit or sphincter dysfunction. Repeat lumbar magnetic resonance imaging (MRI) showed a small posterior SEH at the adjacent L3/4 level rather than at the index level. Because neurological status remained stable, conservative treatment was continued, resulting in substantial symptom improvement. Literature review suggested that this complication is rare but clinically important. Regarding the mechanism underlying hematoma formation at the adjacent segment, we propose the following hypotheses: transmission of irrigation pressure, pressure disequilibrium between the decompressed segment and the adjacent stenotic segment, and the propagation of occult postoperative bleeding.
+
+CONCLUSION · Conclusion
+Symptomatic adjacent-segment SEH after UNSES is a rare but important postoperative complication. Recurrent radicular symptoms after initial improvement should prompt early MRI and consideration of hematoma at adjacent or remote segments. This case also highlights the need to define a safe irrigation-pressure threshold during minimally invasive spine surgery.
+

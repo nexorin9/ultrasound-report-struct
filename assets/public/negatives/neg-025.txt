@@ -1,0 +1,10 @@
+# source: PMC13718248 (Medical Science Monitor: International Medical Journal of Experimental and Clinical Research)
+# license: creativecommons.org/licenses/by-nc-nd/4.0
+# title: Clinical Analysis and Diagnostic Challenges of Immunoglobulin G4-Related Disease Involving the Salivary Gland: A Single Center Retrospective Analysis of 24 Cases
+
+FINDINGS · Results
+Among the 24 patients, 8 patients (33.3%) showed unilateral glandular enlargement, and 15 patients were misdiagnosed with other benign tumors and underwent surgical resection. Immunohistochemical analysis confirmed IgG4-positive plasma cells over 50 per high-power field in hotspot regions, accompanied by an IgG4+/IgG ratio greater than 40%. Elevated serum IgG4 (> 1.35 g/L) was observed in 22 patients, and some patients exhibited varying degrees of elevation in inflammatory markers. Patients with single-organ involvement have relatively lower IgG4 and pan-immune inflammation values. All 24 patients were treated with glucocorticoids, of which 6 patients with extensive systemic multiorgan involvement were treated with additional immunosuppressants. After treatment, serum IgG4 levels decreased significantly, and other inflammatory markers also showed a mild decline. Twenty-three patients improved after treatment, while 1 patient’s condition worsened owing to delayed treatment.
+
+CONCLUSION · Conclusions
+IgG4-RD involving the salivary gland had nonspecific clinical and imaging findings. Diagnosis should be comprehensively considered in combination with serum IgG4 levels and pathological examinations. Glucocorticoids are the first-line treatment drugs, and, combined with immunosuppressants, can curb recurrence and refractory disease.
+

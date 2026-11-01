@@ -1,0 +1,10 @@
+# source: PMC13654445 (Gynecologic Oncology Reports)
+# license: creativecommons.org/licenses/by-nc-nd/4.0
+# title: Endometrial tuberculosis mimicking gynecological malignancy in a postmenopausal woman
+
+FINDINGS · Case Presentation
+A 78-year-old postmenopausal woman presented with pelvic pain and was found to have marked endometrial cavity distention, hematometra, and a cervical lesion concerning for malignancy. Severe cervical stenosis prevented adequate endometrial sampling despite examination under anesthesia, attempted hysteroscopy, and dilation and curettage. Because malignancy could not be excluded, she underwent robotic-assisted total laparoscopic hysterectomy with bilateral salpingo-oophorectomy. Histopathologic examination demonstrated extensive necrotizing granulomatous inflammation involving the endometrium, myometrium, endocervix, and left adnexal soft tissue, without evidence of malignancy. Although acid-fast staining was negative, tissue mycobacterial culture grew Mycobacterium tuberculosis complex, and molecular testing confirmed M. tuberculosis complex DNA. Subsequent evaluation showed no evidence of active pulmonary tuberculosis, and antituberculosis therapy was initiated.
+
+CONCLUSION · Conclusion
+Female genital tuberculosis should be considered in the differential diagnosis of suspicious intrauterine or cervical lesions, even in postmenopausal women, particularly when cervical stenosis prevents adequate preoperative sampling and epidemiologic risk factors, including migration from a country with a higher tuberculosis burden, are present.
+

@@ -1,0 +1,46 @@
+case_id,text_file,char_index,expect_line,expect_column,note
+c01-中文多字节,locate_cases/c01-中文多字节.txt,1,1,1,行首第 1 列
+c01-中文多字节,locate_cases/c01-中文多字节.txt,6,1,6,数值 3 起于第 6 列
+c01-中文多字节,locate_cases/c01-中文多字节.txt,10,1,10,行尾 m
+c01-中文多字节,locate_cases/c01-中文多字节.txt,11,1,11,换行符算第一行最后一列
+c01-中文多字节,locate_cases/c01-中文多字节.txt,12,2,1,第二行第 1 列
+c01-中文多字节,locate_cases/c01-中文多字节.txt,17,2,6,第二行数值 2 起于第 6 列
+c01-中文多字节,locate_cases/c01-中文多字节.txt,21,2,10,第二行行尾 m
+c01-中文多字节,locate_cases/c01-中文多字节.txt,22,2,11,第二行换行符
+c01-中文多字节,locate_cases/c01-中文多字节.txt,0,0,0,光标为 0 即位置未知
+c02-全角括号,locate_cases/c02-全角括号.txt,5,1,5,全角冒号占 1 列
+c02-全角括号,locate_cases/c02-全角括号.txt,6,1,6,全角左括号占 1 列
+c02-全角括号,locate_cases/c02-全角括号.txt,9,1,9,全角右括号占 1 列
+c02-全角括号,locate_cases/c02-全角括号.txt,13,1,13,全角括号之后的数值仍按字符计
+c02-全角括号,locate_cases/c02-全角括号.txt,17,1,17,行尾 m
+c02-全角括号,locate_cases/c02-全角括号.txt,18,1,18,换行符
+c03-空行,locate_cases/c03-空行.txt,5,1,5,第一行换行符
+c03-空行,locate_cases/c03-空行.txt,6,2,1,空行的换行符落在第 2 行第 1 列
+c03-空行,locate_cases/c03-空行.txt,7,3,1,空行不吞行号 实为第 3 行
+c03-空行,locate_cases/c03-空行.txt,12,3,6,第三行数值 3 起于第 6 列
+c03-空行,locate_cases/c03-空行.txt,19,5,1,连续两个空行后落到第 5 行
+c03-空行,locate_cases/c03-空行.txt,28,5,10,末行换行符
+c04-超长行,locate_cases/c04-超长行.txt,1,1,1,行首
+c04-超长行,locate_cases/c04-超长行.txt,5,1,5,第一行换行符
+c04-超长行,locate_cases/c04-超长行.txt,6,2,1,超长行第 1 列
+c04-超长行,locate_cases/c04-超长行.txt,135,2,130,超长行第 130 列 即行尾
+c04-超长行,locate_cases/c04-超长行.txt,136,2,131,超长行换行符
+c04-超长行,locate_cases/c04-超长行.txt,137,3,1,超长行之后的下一行第 1 列
+c04-超长行,locate_cases/c04-超长行.txt,143,3,7,末行换行符
+c05-生僻字,locate_cases/c05-生僻字.txt,3,1,3,盂 是三字节 但只占 1 列
+c05-生僻字,locate_cases/c05-生僻字.txt,7,1,7,生僻字之后的数值位置不受字节数影响
+c05-生僻字,locate_cases/c05-生僻字.txt,12,1,12,换行符
+c06-制表符,locate_cases/c06-制表符.txt,3,1,3,制表符按 1 个字符计
+c06-制表符,locate_cases/c06-制表符.txt,7,1,7,制表符之后的数值位置
+c06-制表符,locate_cases/c06-制表符.txt,12,1,12,换行符
+c07-末行无换行,locate_cases/c07-末行无换行.txt,5,1,5,第一行换行符
+c07-末行无换行,locate_cases/c07-末行无换行.txt,6,2,1,末行第 1 列
+c07-末行无换行,locate_cases/c07-末行无换行.txt,15,2,10,末行行尾 m
+c07-末行无换行,locate_cases/c07-末行无换行.txt,16,0,0,超出文本末尾 位置不可确定
+c08-CRLF,locate_cases/c08-CRLF.txt,4,1,4,见
+c08-CRLF,locate_cases/c08-CRLF.txt,5,1,5,回车符算第一行的普通字符
+c08-CRLF,locate_cases/c08-CRLF.txt,6,1,6,换行符仍在第一行内
+c08-CRLF,locate_cases/c08-CRLF.txt,7,2,1,CRLF 之后下一行第 1 列
+c08-CRLF,locate_cases/c08-CRLF.txt,16,2,10,第二行行尾 m
+c08-CRLF,locate_cases/c08-CRLF.txt,17,2,11,第二行换行符
+c09-空文本,locate_cases/c09-空文本.txt,1,0,0,空文本没有任何位置

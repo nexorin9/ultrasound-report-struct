@@ -1,0 +1,57 @@
+Last login: Sun Nov  1 12:07:42 on ttys002
+cd /Users/kamini/Desktop/RUN/Agent-GIT-CLAUDE-gpt/projects/round_022_20261031_173717/ultrasound-report-struct && export PATH="$HOME/.cargo/bin:$PATH" RIS_BASE_URL=http://127.0.0.1:8799 RIS_API_TOKEN=demo-ris-token EMR_BASE_URL=http://127.0.0.1:8799 EMR_API_TOKEN=demo-emr-token WECOM_WEBHOOK_URL="http://127.0.0.1:8799/webhook?key=demo-key" DAEMON_API_TOKEN=demo-review-token && cargo run --offline -- --config /tmp/urs-demo/config.demo.toml export --out /tmp/urs-demo/out && echo && echo '── 台账 ledger.csv（每行一条已归一的测量值）──' && cat /tmp/urs-demo/out/ledger.csv && echo && echo '── 失败清单 failures.csv（读不出的值指回原文行列）──' && cat /tmp/urs-demo/out/failures.csv
+kamini@KaminideMac-mini ~ % cd /Users/kamini/Desktop/RUN/Agent-GIT-CLAUDE-gpt/projects/round_022_20261031_173717/ultrasound-report-struct && export PATH="$HOME/.cargo/bin:$PATH" RIS_BASE_URL=http://127.0.0.1:8799 RIS_API_TOKEN=demo-ris-token EMR_BASE_URL=http://127.0.0.1:8799 EMR_API_TOKEN=demo-emr-token WECOM_WEBHOOK_URL="http://127.0.0.1:8799/webhook?key=demo-key" DAEMON_API_TOKEN=demo-review-token && cargo run --offline -- --config /tmp/urs-demo/config.demo.toml export --out /tmp/urs-demo/out && echo && echo '── 台账 ledger.csv（每行一条已归一的测量值）──' && cat /tmp/urs-demo/out/ledger.csv && echo && echo '── 失败清单 failures.csv（读不出的值指回原文行列）──' && cat /tmp/urs-demo/out/failures.csv
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.03s
+     Running `target/debug/ultrasound-report-struct --config /tmp/urs-demo/config.demo.toml export --out /tmp/urs-demo/out`
+2026-11-01 04:07:50 INFO  DICT_LOADED dictionary_version=parts-0.2.0+items-0.1.0 version=parts-0.2.0+items-0.1.0 generation=1 parts_version=parts-0.2.0 parts_source=文件：/Users/kamini/Desktop/RUN/Agent-GIT-CLAUDE-gpt/projects/round_022_20261031_173717/ultrasound-report-struct/assets/dictionary/parts.json items_version=items-0.1.0 items_source=文件：/Users/kamini/Desktop/RUN/Agent-GIT-CLAUDE-gpt/projects/round_022_20261031_173717/ultrasound-report-struct/assets/dictionary/items.json
+2026-11-01 04:07:50 INFO  CONFIG_LOADED dictionary_version=parts-0.2.0+items-0.1.0 path=/tmp/urs-demo/config.demo.toml
+启动自检 错误码=CONFIG_LOADED 状态=通过 说明=配置已加载：/tmp/urs-demo/config.demo.toml
+启动自检 错误码=ENV_REQUIRED 状态=通过 说明=必需环境变量齐备（离线档）
+启动自检 错误码=STATE_DB_WRITABLE 状态=通过 说明=状态库目录可写：/tmp/urs-demo
+启动自检 错误码=DICT_PARSED 状态=通过 说明=部位词典可解析：/Users/kamini/Desktop/RUN/Agent-GIT-CLAUDE-gpt/projects/round_022_20261031_173717/ultrasound-report-struct/assets/dictionary/parts.json
+启动自检 错误码=DICT_PARSED 状态=通过 说明=测项词典可解析：/Users/kamini/Desktop/RUN/Agent-GIT-CLAUDE-gpt/projects/round_022_20261031_173717/ultrasound-report-struct/assets/dictionary/items.json
+2026-11-01 04:07:50 INFO  STARTUP_CHECKED dictionary_version=parts-0.2.0+items-0.1.0 profile=Offline
+2026-11-01 04:07:50 INFO  EXPORT_DONE dictionary_version=parts-0.2.0+items-0.1.0 out=/tmp/urs-demo/out ledger_rows=2 failure_rows=1
+导出完成：台账 /tmp/urs-demo/out/ledger.csv（2 行）/ 失败清单 /tmp/urs-demo/out/failures.csv（1 行）
+
+── 台账 ledger.csv（每行一条已归一的测量值）──
+﻿study_no,patient_id,part_key,item_code,value_si,unit_code,coercion_path,dictionary_version
+S-DEMO-001,PID-EXAMPLE,kidney.left,kidney.ap_diameter,32,mm,UnitConvert,parts-0.2.0+items-0.1.0
+S-DEMO-001,PID-EXAMPLE,kidney.right,kidney.ap_diameter,21,mm,UnitConvert,parts-0.2.0+items-0.1.0
+
+── 失败清单 failures.csv（读不出的值指回原文行列）──
+﻿study_no,error_code,line,column,raw_snippet
+S-DEMO-002,UNIT_MISSING,3,7,3.2
+kamini@KaminideMac-mini ultrasound-report-struct % 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

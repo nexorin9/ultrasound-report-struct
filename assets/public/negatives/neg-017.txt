@@ -1,0 +1,10 @@
+# source: PMC13700125 (BMC Surgery)
+# license: creativecommons.org/licenses/by-nc-nd/4.0
+# title: Prediction of incidental obturator hernia using preoperative computed tomography: the distance between the obturator internus muscle and the pubic bone
+
+FINDINGS · Results
+Among 79 patients, IOH was identified in 9 (11%). No significant differences between groups were observed in age or body mass index. While the OE–P gap was comparable between IOH and non-IOH groups (2.5 mm vs. 2.7 mm, P = 1.000), the OI–P gap was significantly larger in the IOH than in the non-IOH group (13.6 mm vs. 9.7 mm, P = 0.005). An OI–P gap cutoff value of 12.9 mm showed sensitivity of 67% and specificity of 93% in diagnosing IOH.
+
+CONCLUSION · Conclusion
+Large OI–P gap in coronal CT images was associated with IOH and could be a useful in its detection.
+

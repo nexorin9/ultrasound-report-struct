@@ -1,0 +1,10 @@
+# source: PMC13654757 (Frontiers in Medicine)
+# license: creativecommons.org/licenses/by/4.0
+# title: Case Report: SAPHO syndrome mimicking osseous relapse after haploidentical allogeneic hematopoietic stem cell transplantation for acute myeloid leukemia
+
+FINDINGS · Case presentation
+A 19-year-old man with acute myeloid leukemia underwent haploidentical allo-HSCT in second complete remission. Thirteen months later, while measurable residual disease remained undetectable, he developed severe thoracolumbar pain and extensive inflammatory acneiform eruptions. Magnetic resonance imaging showed abnormal thoracic vertebral marrow and paravertebral signals, initially raising suspicion of osseous leukemic relapse. C-reactive protein and erythrocyte sedimentation rate were elevated, whereas bone marrow examination confirmed continued remission. Computed tomography and technetium-99 m methylene diphosphonate bone scintigraphy with single-photon emission computed tomography/computed tomography demonstrated lesions involving the sternum, bilateral clavicles, and T6–T9 costovertebral joints. Computed tomography-guided sternal biopsy showed collagenized fibrous tissue with myxoid change, focal chondroid differentiation, a small amount of newly formed bone, and mild inflammatory-cell infiltration, without morphologic evidence of leukemic involvement. The combination of severe acne and osteitis in a characteristic distribution, after clinical evaluation for malignancy and infection, supported a diagnosis of SAPHO syndrome. Serum interleukin-6 elevation and altered peripheral immune-cell subsets were considered exploratory single-time-point observations. Symptoms improved after methylprednisolone followed by celecoxib, methotrexate, and dermatologic treatment.
+
+CONCLUSION · Conclusion
+SAPHO syndrome should be considered when post-transplant bone lesions coexist with compatible skin manifestations. Multimodal imaging and targeted biopsy helped avoid inappropriate treatment for presumed AML relapse. The observed immune abnormalities are hypothesis-generating and do not establish a causal relationship between allo-HSCT and SAPHO syndrome.
+

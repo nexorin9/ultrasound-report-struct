@@ -1,0 +1,10 @@
+# source: PMC13711616 (BMJ Open Respiratory Research)
+# license: creativecommons.org/licenses/by-nc/4.0
+# title: Clinical characterisation and therapeutic insights from a single-centre cohort of seven patients with Gorham-Stout disease
+
+FINDINGS · Results
+Patients (six males, one female; median age 27 years) commonly presented with dyspnoea (5/7) and universal pleural effusion (7/7, including four chylothoraces). Extensive osteolysis (ribs, spine, pelvis) occurred without significant bone pain in most cases. 18F-FAPI PET/CT showed intense uptake (maximum standardised uptake value (SUVmax) 4.0–17.6) in lesions, superior to 18F-FDG PET/CT (SUVmax<2.5 in 6/7). Lymphoscintigraphy confirmed central lymphatic leakage in all tested patients. Histopathology revealed D2-40-positive lymphatic proliferation. Individualised treatment included sirolimus (one patient, clinical and radiological improvement), alendronate (one patient, stable disease) and supportive care (five patients, symptomatic improvement over a 15-month median follow-up).
+
+CONCLUSION · Conclusions
+GSD often presents with chylothorax and respiratory symptoms rather than bone pain. 18F-FAPI PET/CT is superior to FDG for assessing activity and monitoring response. Whether mammalian target of rapamycin inhibition or antiresorptive therapy improves outcomes cannot be determined from this small series; our single-patient observations with sirolimus and alendronate are hypothesis-generating only. Multidisciplinary, individualised management with advanced imaging is essential.
+

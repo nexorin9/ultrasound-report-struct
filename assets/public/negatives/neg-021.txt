@@ -1,0 +1,10 @@
+# source: PMC13688324 (Case Reports in Oncology)
+# license: creativecommons.org/licenses/by-nc/4.0
+# title: Widespread Skeletal Fragility and Progressive Spinal Destruction Associated with Prolonged Tropomyosin Receptor Kinase Inhibitor Therapy: A Case Report
+
+FINDINGS · Case Presentation
+We report a 65-year-old woman with an ETV6-NTRK3 fusion-positive gastrointestinal stromal tumor who achieved sustained disease control during prolonged TRK inhibitor therapy. During treatment, she developed progressive skeletal fragility characterized by multiple atraumatic fractures, delayed fracture healing, and progressive lumbar spinal destruction consistent with Charcot-like neuropathic arthropathy. Neurological deterioration, including loss of ambulation, resulted from structural spinal instability rather than direct neurotoxicity. Although initial imaging findings raised suspicion of metastatic disease, serial CT, MRI, and FDG-PET/CT examinations supported a nonmalignant skeletal process in the setting of continued oncologic remission. Following discontinuation of TRK inhibitor therapy, neurological symptoms stabilized and radiographic evidence of fracture healing was observed.
+
+CONCLUSION · Conclusion
+This case suggests that TRK inhibitor-associated skeletal toxicity may represent an on-target effect related to disruption of neuro-skeletal interactions. Long-term monitoring of bone health may be warranted in patients receiving prolonged TRK inhibitor therapy.
+

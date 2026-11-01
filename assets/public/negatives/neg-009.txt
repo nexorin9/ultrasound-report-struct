@@ -1,0 +1,10 @@
+# source: PMC13687337 (Frontiers in Pediatrics)
+# license: creativecommons.org/licenses/by/4.0
+# title: Early recognition of life-threatening otolaryngologic complications in pediatric epstein-barr virus infectious mononucleosis: a systematic review and meta-analysis
+
+FINDINGS · Results
+Nine studies were included. Clinically significant UAO/airway compromise was the only outcome supporting a narrowly defined meta-analysis. Two directly pediatric hospitalized IM cohorts yielded a REML random-effects pooled proportion of 20.8% (95% CI 7.8–44.9%; I 2 = 69.1%; τ 2 = 0.465; k = 2). Adding one mixed-age cohort in sensitivity analysis yielded 23.2% (95% CI 14.5–35.1%; I 2 = 38.9%; τ 2 = 0.091; k = 3). Suppurative/deep neck complications, candidate warning features, biomarkers, imaging findings, and treatment effects were not pooled because populations, denominator directions, sampling frames, or outcome definitions were incompatible. Certainty was low that UAO is a clinically important complication in hospitalized pediatric IM and very low for the pooled numerical proportion and the remaining evidence streams.
+
+CONCLUSION · Conclusions
+UAO is the most consistently documented life-threatening ENT manifestation of pediatric EBV-IM, while suppurative/deep neck complications are clinically important but quantitatively heterogeneous. By separating directly pediatric evidence from mixed-age supportive data and preserving outcome-specific denominators, this review provides a structured synthesis of the limited evidence to support clinical awareness and hypothesis generation, while defining priorities for prospective pediatric validation.
+

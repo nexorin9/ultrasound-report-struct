@@ -1,0 +1,10 @@
+# source: PMC13622694 (Qatar Medical Journal)
+# license: creativecommons.org/licenses/by/4.0
+# title: Moyamoya disease masquerading as CNS vasculitis: Diagnostic challenges and imaging insights
+
+FINDINGS · Case Presentation
+A 38-year-old woman presented with a one-week history of headache and binocular diplopia. Neuroimaging demonstrated a subacute right occipitoparietal infarct. Magnetic resonance angiography showed multifocal stenoses with extensive collateral vessels. High-resolution vessel wall imaging demonstrated circumferential enhancement, initially raising concern for CNS vasculitis; however, cerebrospinal fluid analysis was non-inflammatory, and autoimmune and infectious panels were negative. Digital subtraction angiography confirmed bilateral terminal internal carotid artery stenosis with lenticulostriate collaterals, consistent with MMD. The presence of a positive family history of MMD further supported the diagnosis. She improved clinically, was discharged on aspirin, and remained asymptomatic at neurosurgery follow-up.
+
+CONCLUSION · Conclusion
+Differentiating MMD from CNS vasculitis requires careful integration of clinical, radiological, and familial data to prevent misdiagnosis and unnecessary immunosuppression. A structured, multimodal diagnostic approach is essential, particularly when imaging findings are atypical or potentially misleading. Early recognition and appropriate management can lead to favorable outcomes, as illustrated by our patient, who showed complete recovery and remained symptom-free on medical therapy.
+

@@ -1,0 +1,52 @@
+Last login: Sun Nov  1 12:07:02 on ttys005
+cd /Users/kamini/Desktop/RUN/Agent-GIT-CLAUDE-gpt/projects/round_022_20261031_173717/ultrasound-report-struct && export PATH="$HOME/.cargo/bin:$PATH" RIS_BASE_URL=http://127.0.0.1:8799 RIS_API_TOKEN=demo-ris-token EMR_BASE_URL=http://127.0.0.1:8799 EMR_API_TOKEN=demo-emr-token WECOM_WEBHOOK_URL="http://127.0.0.1:8799/webhook?key=demo-key" DAEMON_API_TOKEN=demo-review-token && cargo run --offline -- --config /tmp/urs-demo/config.demo.toml daemon
+kamini@KaminideMac-mini ~ % cd /Users/kamini/Desktop/RUN/Agent-GIT-CLAUDE-gpt/projects/round_022_20261031_173717/ultrasound-report-struct && export PATH="$HOME/.cargo/bin:$PATH" RIS_BASE_URL=http://127.0.0.1:8799 RIS_API_TOKEN=demo-ris-token EMR_BASE_URL=http://127.0.0.1:8799 EMR_API_TOKEN=demo-emr-token WECOM_WEBHOOK_URL="http://127.0.0.1:8799/webhook?key=demo-key" DAEMON_API_TOKEN=demo-review-token && cargo run --offline -- --config /tmp/urs-demo/config.demo.toml daemon
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.03s
+     Running `target/debug/ultrasound-report-struct --config /tmp/urs-demo/config.demo.toml daemon`
+2026-11-01 04:07:42 INFO  DICT_LOADED dictionary_version=parts-0.2.0+items-0.1.0 version=parts-0.2.0+items-0.1.0 generation=1 parts_version=parts-0.2.0 parts_source=文件：/Users/kamini/Desktop/RUN/Agent-GIT-CLAUDE-gpt/projects/round_022_20261031_173717/ultrasound-report-struct/assets/dictionary/parts.json items_version=items-0.1.0 items_source=文件：/Users/kamini/Desktop/RUN/Agent-GIT-CLAUDE-gpt/projects/round_022_20261031_173717/ultrasound-report-struct/assets/dictionary/items.json
+2026-11-01 04:07:42 INFO  CONFIG_LOADED dictionary_version=parts-0.2.0+items-0.1.0 path=/tmp/urs-demo/config.demo.toml
+启动自检 错误码=CONFIG_LOADED 状态=通过 说明=配置已加载：/tmp/urs-demo/config.demo.toml
+启动自检 错误码=ENV_REQUIRED 状态=通过 说明=必需环境变量齐备（守护档）
+启动自检 错误码=STATE_DB_WRITABLE 状态=通过 说明=状态库目录可写：/tmp/urs-demo
+启动自检 错误码=DICT_PARSED 状态=通过 说明=部位词典可解析：/Users/kamini/Desktop/RUN/Agent-GIT-CLAUDE-gpt/projects/round_022_20261031_173717/ultrasound-report-struct/assets/dictionary/parts.json
+启动自检 错误码=DICT_PARSED 状态=通过 说明=测项词典可解析：/Users/kamini/Desktop/RUN/Agent-GIT-CLAUDE-gpt/projects/round_022_20261031_173717/ultrasound-report-struct/assets/dictionary/items.json
+启动自检 错误码=INBOX_PRESENT 状态=通过 说明=投递目录就绪：/tmp/urs-demo/inbox
+2026-11-01 04:07:42 INFO  STARTUP_CHECKED dictionary_version=parts-0.2.0+items-0.1.0 profile=Daemon
+守护进程启动：投递目录 /tmp/urs-demo/inbox，状态库 /tmp/urs-demo/state.sqlite，并发上限 4，轮询间隔 1000 毫秒
+2026-11-01 04:07:42 INFO  REVIEW_API_STARTED dictionary_version=parts-0.2.0+items-0.1.0 address=127.0.0.1:8731
+确认回执端点已启动：http://127.0.0.1:8731/api/v1/reports/{study_no}/review
+2026-11-01 04:07:42 INFO  DAEMON_STARTED dictionary_version=parts-0.2.0+items-0.1.0 inbox=/tmp/urs-demo/inbox state_db=/tmp/urs-demo/state.sqlite max_concurrency=4 tick_ms=1000
+2026-11-01 04:07:42 INFO  WATCH_TICK dictionary_version=parts-0.2.0+items-0.1.0 candidates=0 growing=0 pending=2 duplicates=0
+2026-11-01 04:07:42 INFO  DAEMON_HEARTBEAT dictionary_version=parts-0.2.0+items-0.1.0 tick=1 processed=0 failed=0 failed_rate=0.000 awaiting_review=0 pending_writeback=0 last_event_at=- in_flight=0 peak_concurrency=0 duplicates=0 errors=0 summary_date=2026-11-01 summary_processed=0 summary_failed=0 summary_failed_rate=0.000 summary_failed_items=0 summary_duplicates=0 summary_awaiting_review=0 summary_pending_writeback=0 summary_error_codes=-
+2026-11-01 04:07:43 INFO  REPORT_DISCOVERED dictionary_version=parts-0.2.0+items-0.1.0 study_no=S-DEMO-001 kind=txt bytes=133
+2026-11-01 04:07:43 INFO  REPORT_DISCOVERED dictionary_version=parts-0.2.0+items-0.1.0 study_no=S-DEMO-002 kind=txt bytes=109
+2026-11-01 04:07:43 INFO  WATCH_TICK dictionary_version=parts-0.2.0+items-0.1.0 candidates=2 growing=0 pending=0 duplicates=0
+2026-11-01 04:07:43 INFO  DAEMON_HEARTBEAT dictionary_version=parts-0.2.0+items-0.1.0 tick=2 processed=0 failed=0 failed_rate=0.000 awaiting_review=0 pending_writeback=0 last_event_at=- in_flight=2 peak_concurrency=2 duplicates=0 errors=0 summary_date=2026-11-01 summary_processed=0 summary_failed=0 summary_failed_rate=0.000 summary_failed_items=0 summary_duplicates=0 summary_awaiting_review=0 summary_pending_writeback=0 summary_error_codes=-
+2026-11-01 04:07:44 INFO  REPORT_PROCESSED dictionary_version=parts-0.2.0+items-0.1.0 study_no=S-DEMO-002 items=0 failures=1
+2026-11-01 04:07:44 INFO  REPORT_PROCESSED dictionary_version=parts-0.2.0+items-0.1.0 study_no=S-DEMO-001 items=2 failures=0
+2026-11-01 04:07:44 INFO  WATCH_TICK dictionary_version=parts-0.2.0+items-0.1.0 candidates=0 growing=0 pending=0 duplicates=0
+2026-11-01 04:07:44 INFO  DAEMON_HEARTBEAT dictionary_version=parts-0.2.0+items-0.1.0 tick=3 processed=2 failed=1 failed_rate=0.500 awaiting_review=1 pending_writeback=0 last_event_at=2026-11-01_04:07:44.005 in_flight=0 peak_concurrency=2 duplicates=0 errors=0 summary_date=2026-11-01 summary_processed=2 summary_failed=1 summary_failed_rate=0.500 summary_failed_items=1 summary_duplicates=0 summary_awaiting_review=1 summary_pending_writeback=0 summary_error_codes=UNIT_MISSING:1
+2026-11-01 04:07:46 INFO  WATCH_TICK dictionary_version=parts-0.2.0+items-0.1.0 candidates=0 growing=0 pending=0 duplicates=0
+2026-11-01 04:07:46 INFO  DAEMON_HEARTBEAT dictionary_version=parts-0.2.0+items-0.1.0 tick=4 processed=2 failed=1 failed_rate=0.500 awaiting_review=1 pending_writeback=0 last_event_at=2026-11-01_04:07:44.005 in_flight=0 peak_concurrency=2 duplicates=0 errors=0 summary_date=2026-11-01 summary_processed=2 summary_failed=1 summary_failed_rate=0.500 summary_failed_items=1 summary_duplicates=0 summary_awaiting_review=1 summary_pending_writeback=0 summary_error_codes=UNIT_MISSING:1
+2026-11-01 04:07:47 INFO  WATCH_TICK dictionary_version=parts-0.2.0+items-0.1.0 candidates=0 growing=0 pending=0 duplicates=0
+2026-11-01 04:07:47 INFO  DAEMON_HEARTBEAT dictionary_version=parts-0.2.0+items-0.1.0 tick=5 processed=2 failed=1 failed_rate=0.500 awaiting_review=1 pending_writeback=0 last_event_at=2026-11-01_04:07:44.005 in_flight=0 peak_concurrency=2 duplicates=0 errors=0 summary_date=2026-11-01 summary_processed=2 summary_failed=1 summary_failed_rate=0.500 summary_failed_items=1 summary_duplicates=0 summary_awaiting_review=1 summary_pending_writeback=0 summary_error_codes=UNIT_MISSING:1
+2026-11-01 04:07:48 INFO  WATCH_TICK dictionary_version=parts-0.2.0+items-0.1.0 candidates=0 growing=0 pending=0 duplicates=0
+2026-11-01 04:07:48 INFO  DAEMON_HEARTBEAT dictionary_version=parts-0.2.0+items-0.1.0 tick=6 processed=2 failed=1 failed_rate=0.500 awaiting_review=1 pending_writeback=0 last_event_at=2026-11-01_04:07:44.005 in_flight=0 peak_concurrency=2 duplicates=0 errors=0 summary_date=2026-11-01 summary_processed=2 summary_failed=1 summary_failed_rate=0.500 summary_failed_items=1 summary_duplicates=0 summary_awaiting_review=1 summary_pending_writeback=0 summary_error_codes=UNIT_MISSING:1
+2026-11-01 04:07:49 INFO  WATCH_TICK dictionary_version=parts-0.2.0+items-0.1.0 candidates=0 growing=0 pending=0 duplicates=0
+2026-11-01 04:07:49 INFO  DAEMON_HEARTBEAT dictionary_version=parts-0.2.0+items-0.1.0 tick=7 processed=2 failed=1 failed_rate=0.500 awaiting_review=1 pending_writeback=0 last_event_at=2026-11-01_04:07:44.005 in_flight=0 peak_concurrency=2 duplicates=0 errors=0 summary_date=2026-11-01 summary_processed=2 summary_failed=1 summary_failed_rate=0.500 summary_failed_items=1 summary_duplicates=0 summary_awaiting_review=1 summary_pending_writeback=0 summary_error_codes=UNIT_MISSING:1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

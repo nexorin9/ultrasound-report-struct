@@ -1,0 +1,10 @@
+# source: PMC13617120 (Frontiers in Medicine)
+# license: creativecommons.org/licenses/by/4.0
+# title: Case Report: Primary ovarian pulmonary-type small cell neuroendocrine carcinoma mimicking benign adnexal torsion: a diagnostic challenge
+
+FINDINGS · Case presentation
+A woman in her early 60s presented with acute lower abdominal pain, abdominal distension, and syncope. Pelvic magnetic resonance imaging revealed a complex cystic-solid adnexal mass. Emergency laparoscopy demonstrated left adnexal torsion, tumor rupture, active bleeding, and approximately 550 mL of hemoperitoneum. Histopathological examination revealed a high-grade small cell neuroendocrine carcinoma. Immunohistochemical analysis supported the diagnosis of SCCOPT, showing positivity for synaptophysin, chromogranin A, and CD56, with negative TTF-1 expression, loss of Rb expression, and retained SMARCA4 expression. Postoperative evaluation, including PET-CT, gastroscopy, and colonoscopy, showed no evidence of an extra-ovarian primary tumor. Tumor–blood sequencing identified an HRD-negative/BRCA-wild-type profile and a somatic TP53 mutation, further supporting the high-grade neuroendocrine phenotype. The patient underwent surgical staging followed by six cycles of carboplatin plus etoposide chemotherapy and remained without clinically evident recurrence at the latest follow-up.
+
+CONCLUSION · Conclusion
+SCCOPT may initially present as an acute gynecological emergency and mimic benign adnexal torsion, potentially delaying recognition of malignancy. Accurate diagnosis requires integration of clinical presentation, imaging findings, histopathology, immunophenotyping, molecular alterations, and exclusion of extra-ovarian primary sites. This case emphasizes the importance of considering ovarian malignancy, including SCCOPT, in postmenopausal women presenting with acute adnexal events.
+

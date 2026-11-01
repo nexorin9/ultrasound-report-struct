@@ -1,0 +1,10 @@
+# source: PMC13623353 (Case Reports in Oncology)
+# license: creativecommons.org/licenses/by-nc/4.0
+# title: A Case Report of Bilateral Thyroid Thymic Carcinoma with Multiple Cervical Lymph Node Metastases: Clinical Manifestations and Imaging Characteristics
+
+FINDINGS · Case Presentation
+We report a case of a 60-year-old male who presented with hoarseness and dysphagia. Ultrasound revealed multiple bilateral thyroid nodules with irregular margins and heterogeneous internal echoes, along with bilateral cervical lymphadenopathy. Enhanced CT showed heterogeneous enhancement of the thyroid and enlarged lymph nodes. The patient underwent extended radical resection of bilateral thyroid cancer with mediastinal lymph node dissection. Postoperative pathology and immunohistochemistry confirmed the diagnosis of bilateral thyroid thymic carcinoma with multiple cervical lymph node metastases.
+
+CONCLUSION · Conclusion
+ITTC should be considered in the differential diagnosis of thyroid nodules with suspicious ultrasound features, especially when associated with cervical lymph node metastases. Positive expression of CD5 and CD117 with negative expression of Tg and TTF-1 is diagnostic. Treatment follows principles similar to those for thymic carcinoma, and complete surgical resection remains the mainstay.
+

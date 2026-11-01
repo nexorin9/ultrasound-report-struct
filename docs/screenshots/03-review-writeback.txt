@@ -1,0 +1,57 @@
+kamini@KaminideMac-mini ~ % cd /Users/kamini/Desktop/RUN/Agent-GIT-CLAUDE-gpt/projects/round_022_20261031_173717/ultrasound-report-struct && export PATH="$HOME/.cargo/bin:$PATH" RIS_BASE_URL=http://127.0.0.1:8799 RIS_API_TOKEN=demo-ris-token EMR_BASE_URL=http://127.0.0.1:8799 EMR_API_TOKEN=demo-emr-token WECOM_WEBHOOK_URL="http://127.0.0.1:8799/webhook?key=demo-key" DAEMON_API_TOKEN=demo-review-token && echo '── 医师确认回执（POST 回执端点）──' && curl -sS -X POST -H "Authorization: Bearer $DAEMON_API_TOKEN" -H 'Content-Type: application/json' --data @/tmp/urs-demo/confirm.json http://127.0.0.1:8731/api/v1/reports/S-DEMO-001/review | python3 -m json.tool && echo && echo '── 出站端真实收到的写请求与推送（本地替身留档）──' && awk '/POST \/api\/v1\/structured-reports/,0' /tmp/urs-demo/stub.log && echo '── 状态迁移（状态库）──' && sqlite3 -header -column /tmp/urs-demo/state.sqlite 'select study_no,status from reports order by id;' && echo && echo '── 审计链（audit_log）──' && sqlite3 -header -column /tmp/urs-demo/state.sqlite 'select action,actor from audit_log where study_no="S-DEMO-001" order by id;'
+── 医师确认回执（POST 回执端点）──
+{
+    "comparison_count": 1,
+    "decision": "confirm",
+    "emr_attempts": 1,
+    "emr_status": 200,
+    "emr_written": true,
+    "item_count": 2,
+    "reviewer": "USR-SONO-EXAMPLE",
+    "skipped_items": 0,
+    "status": "written_back",
+    "status_message": "\u5df2\u56de\u5199 EMR",
+    "study_no": "S-DEMO-001",
+    "wecom_error_code": null,
+    "wecom_pushed": true
+}
+
+── 出站端真实收到的写请求与推送（本地替身留档）──
+── POST /api/v1/structured-reports
+   Authorization: Bearer demo-emr-token
+   Idempotency-Key: 67116e4d83daf8aec88f38363abb18806d265e7cd07c60f038e9bcb4429c202a
+   Content-Type: application/json
+   Accept: application/json
+   body: {"study_no":"S-DEMO-001","patient_id":"PID-EXAMPLE","items":[{"part_key":"kidney.left","item_code":"kidney.ap_diameter","value":32.0,"unit_code":"mm","coercion_path":"UnitConvert","line":3,"column":7},{"part_key":"kidney.right","item_code":"kidney.ap_diameter","value":21.0,"unit_code":"mm","coercion_path":"UnitConvert","line":4,"column":7}],"comparisons":[{"item_code":"kidney.ap_diameter","previous_value":28.0,"delta":4.0}],"dictionary_version":"parts-0.2.0+items-0.1.0"}
+
+── POST /webhook?key=demo-key
+   Content-Type: application/json
+   Accept: application/json
+   body: {"msgtype":"text","text":{"content":"超声报告结构化结论已确认回写\n检查号：S-DEMO-001\n台账条目：2 条\n差值条目：1 条\n待处理失败条目：0 条\n词典版本：parts-0.2.0+items-0.1.0\n差值明细：\n- kidney.ap_diameter 32mm（上次 28mm，增大 4mm）"}}
+
+── 状态迁移（状态库）──
+study_no    status      
+----------  ------------
+S-DEMO-002  parse_failed
+S-DEMO-001  written_back
+
+── 审计链（audit_log）──
+action        actor           
+------------  ----------------
+received      system          
+parsed        system          
+coerced       system          
+compared      system          
+confirmed     USR-SONO-EXAMPLE
+written_back  system          
+pushed        system          
+kamini@KaminideMac-mini ultrasound-report-struct % 
+
+
+
+
+
+
+
+
+

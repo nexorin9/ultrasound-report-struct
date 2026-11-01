@@ -1,0 +1,10 @@
+# source: PMC13652464 (International Journal of Surgery Case Reports)
+# license: creativecommons.org/licenses/by-nc-sa/4.0
+# title: Unicentric hyaline-vascular Castleman disease of the jejunal mesentery mimicking a gastrointestinal stromal tumor or neuroendocrine tumor: a case report
+
+FINDINGS · Case presentation
+A 36-year-old woman presented with a 3-month history of vague abdominal discomfort, early satiety, and an unintentional 9-kg weight loss. Contrast-enhanced CT revealed a hypervascular jejunal mesenteric mass of size 2.0 × 1.7 cm, suspicious for a NET or GIST. Owing to the diagnostic uncertainty, exploratory laparoscopy converted to a mini-laparotomy with en bloc resection of the mesenteric mass and an adjacent 10-cm segment of jejunum was performed. Histopathological and immunohistochemical examination confirmed hyaline vascular unicentric CD. The postoperative course was uneventful, and the patient remained asymptomatic with complete weight recovery and no evidence of recurrence at 12-month follow-up.
+
+CONCLUSION · Conclusion
+Mesenteric unicentric CD is a rare but important differential diagnosis of solitary hypervascular intra-abdominal masses. As imaging findings often mimic mesenchymal and NETs, definitive diagnosis relies on histopathological and immunohistochemical evaluation. Complete surgical resection is both diagnostic and curative for localized disease.
+

@@ -1,0 +1,10 @@
+# source: PMC13674027 (JTCVS Techniques)
+# license: creativecommons.org/licenses/by-nc-nd/4.0
+# title: Mid-term results of the Lugones procedure for scimitar syndrome repair
+
+FINDINGS · Results
+Thirty-eight patients from 11 institutions were included (median age, 5 years; range, 0.7-43). Preoperative scimitar vein stenosis was present in approximately 29%; aortopulmonary collaterals were embolized preoperatively in 24 patients (63%). The original procedure was performed in 28 cases, variant A in 5 cases, and variant B in 5 cases. In-hospital mortality was 0%. Early complications were uncommon (1 postoperative pulmonary venous pathway obstruction due to extrinsic compression; 1 transient diaphragmatic dysfunction). Mean follow-up was 74 months (maximum 13.5 years), with no late deaths, reoperations, recurrent obstruction, or additional late pulmonary venous pathway obstruction. Computed tomography scans consistently demonstrated wide reconstructed pathways; 4-dimensional flow magnetic resonance imaging showed physiological pulmonary venous flow patterns after repair.
+
+CONCLUSION · Conclusions
+The Lugones procedure yielded excellent mid-term outcomes with no deaths or reoperations and a very low incidence of postoperative pulmonary venous obstruction.
+

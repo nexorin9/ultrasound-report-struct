@@ -1,0 +1,43 @@
+# 超声报告结构化系统 · 配置样例
+#
+# 口径：路径与端点写在本文件；**凭据只从环境变量读**（见 .env.example），本文件不落密钥。
+# 出现 token / secret / password / webhook 这类键会被启动自检直接拒绝（CONFIG_SECRET_IN_FILE）。
+#
+# 用法：cp config.example.toml config.toml 后按院内实际修改；
+#       启动时 `ultrasound-report-struct --config config.toml daemon`。
+
+[inbox]
+# 超声工作站投递目录：每份报告一个子目录，内含 report.txt 或 report.hl7
+dir = "inbox"
+# 目录轮询间隔（毫秒）—— 事件到达延迟 ≤ 该值
+tick_interval_ms = 1000
+
+[state]
+# 状态库路径（SQLite，运行期数据，已被 .gitignore 排除）
+db = "data/state.sqlite"
+
+[dictionary]
+# 部位 / 测项词典目录（版本化 JSON，可热更新）
+dir = "assets/dictionary"
+# 部位词典文件
+parts_file = "assets/dictionary/parts.json"
+# 测项词典文件
+items_file = "assets/dictionary/items.json"
+
+[outbound]
+# 出站读：院内 RIS 历史报告
+ris_base_url = "https://ris.example-hospital.internal"
+# 出站写：院内 EMR 结构化报告接口
+emr_base_url = "https://emr.example-hospital.internal"
+# 出站请求超时（秒）
+request_timeout_secs = 10
+# 守护并发上限（同一检查号串行，不同检查号并行）
+max_concurrency = 4
+# 回写退避重试次数（EMR 写失败时重试几次；上限 2 —— 退避重试是兜底，不是无限重试）
+writeback_max_retries = 2
+# 回写退避间隔基数（毫秒）—— 第 1 次退避 200ms、第 2 次 400ms；0 = 不等待立刻重试
+writeback_backoff_ms = 200
+
+[review]
+# 内置确认回执端点监听地址（仅内网；医师确认走这个端点）
+bind = "127.0.0.1:8731"

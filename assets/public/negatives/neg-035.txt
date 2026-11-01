@@ -1,0 +1,10 @@
+# source: PMC13652407 (International Journal of Surgery Case Reports)
+# license: creativecommons.org/licenses/by-nc/4.0
+# title: Maxillary sinus myoepithelioma: a case report
+
+FINDINGS · Case presentation
+A 67-year-old man presented with a right-sided sinonasal mass. Cross-sectional imaging revealed a lesion originating from the right maxillary sinus and extending into the ipsilateral nasal cavity and nasopharynx. An initial biopsy favored a diagnosis of inverted papilloma, and the patient subsequently underwent endoscopic medial maxillectomy. Postoperative histopathological analysis revealed predominant myoepithelial proliferation, and immunohistochemistry showed strong cytoplasmic positivity for smooth muscle actin, glial fibrillary acidic protein, and cytokeratin; focal positivity for S100 and SOX10; and negative staining for EMA and CD34. The findings were consistent with myoepithelioma. The patient had an uneventful postoperative course, and no recurrence was encountered during 12 months of clinical and endoscopic follow-up.
+
+CONCLUSION · Conclusion
+Given its nonspecific clinical presentation and radiological findings, the precise diagnosis of sinonasal myoepithelioma rests on histopathological assessment supported by an extensive immunohistochemical panel. The treatment of choice is complete surgical removal with tumor-free margins to minimize the risk of recurrence. Long-term follow-up data are needed to better define the outcomes.
+

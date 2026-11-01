@@ -1,0 +1,7 @@
+project_code,project_family,ucum_code,ucum_name,ucum_class,match_type,note
+mm,Length,mm,millimeter,,完整码表,本项目码取自 UCUM 完整码表；essential 子集未收录该码
+cm,Length,cm,centimeter,,完整码表,本项目码取自 UCUM 完整码表；essential 子集未收录该码
+m,Length,m,meter,length,完整码表,本项目码取自 UCUM 完整码表；essential 子集未收录该码
+mL,Volume,mL,milliliter,,完整码表,本项目码取自 UCUM 完整码表；essential 子集未收录该码
+L,Volume,L,liter,iso1000,精确,本项目码即 UCUM 官方策展子集（essential）里的码
+cm3,Volume,,,,未收录,UCUM 两份发布包均未收录该码（本项目为简化写法），换算按院内约定

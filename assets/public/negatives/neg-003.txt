@@ -1,0 +1,10 @@
+# source: PMC13668069 (Case Reports in Oncology)
+# license: creativecommons.org/licenses/by-nc/4.0
+# title: Synchronous Chronic Myeloid Leukemia and Metastatic Papillary Thyroid Carcinoma: A Case Report of a Diagnostic and Therapeutic Challenge
+
+FINDINGS · Case Presentation
+A 36-year-old woman presented with leukocytosis and was diagnosed with chronic-phase CML. During the initial workup, ^18F-FDG PET/CT showed diffuse marrow activity together with mild-to-moderate uptake in selected cervical and right paratracheal lymph nodes. Neck imaging demonstrated a nodular thyroid gland and cervical lymphadenopathy with suspicious features including cystic change and calcifications, raising concern for a synchronous second primary malignancy. Fine-needle aspiration confirmed PTC, and nodal sampling established metastatic PTC. Hematologic stabilization with nilotinib was initiated before surgery. The patient subsequently underwent total thyroidectomy with bilateral neck dissection. Histopathology revealed multifocal PTC with lymphatic invasion, extensive nodal metastases (59/67 lymph nodes positive), and extranodal extension. Final staging was pT2N1bM0, corresponding to AJCC 8th edition stage I.
+
+CONCLUSION · Conclusion
+This case highlights the importance of careful evaluation of atypical imaging findings in patients with newly diagnosed CML and the critical role of tissue confirmation in distinguishing leukemic disease from a synchronous second primary malignancy. It also illustrates the complexity of treatment sequencing and the importance of multidisciplinary management in patients with dual primary cancers.
+

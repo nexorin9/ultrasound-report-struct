@@ -1,0 +1,10 @@
+# source: PMC13685378 (Journal of Medical Case Reports)
+# license: creativecommons.org/licenses/by-nc-nd/4.0
+# title: S. carcinoma arising in a breast implant: a case report and review of the literature
+
+FINDINGS · Case presentation
+A 48-year-old Hispanic female presented with pain and asymmetry of the left breast. Persistent symptoms and imaging findings led to the identification of a cystic mass associated with a silicone implant. Histopathological analysis confirmed squamous-cell carcinoma arising from the periprosthetic capsule. The patient underwent implant removal, and after radiologic surveillance and diagnosis of recurrence, an attempted oncoplastic approach was converted intraoperatively to a radical mastectomy due to extensive tumor infiltration. No adjuvant therapy was administered. At 12-month follow-up, the patient remains disease-free without evidence of recurrence.
+
+CONCLUSION · Conclusions
+The diagnosis and management of breast-implant-associated squamous-cell carcinoma require a multidisciplinary approach due to its unpredictable behavior. Increased awareness, early detection, and individualized treatment strategies are essential to improve outcomes in this rare but aggressive entity.
+

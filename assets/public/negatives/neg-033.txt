@@ -1,0 +1,10 @@
+# source: PMC13688597 (Case Reports in Neurology)
+# license: creativecommons.org/licenses/by/4.0
+# title: Progressive Hemiparesis Revealing an Atypical Large-Vessel Vasculitis: A Case Report Tackling a Diagnostic Overlap
+
+FINDINGS · Case Presentation
+We report the case of a woman in her 60s presenting with progressive left-sided weakness and multifocal ischemic strokes. Vascular examination revealed marked inter-arm blood pressure asymmetry, absent right radial pulse, and diffuse arterial bruits. Imaging demonstrated extensive circumferential thickening and stenosis of the aorta and its major branches. Extensive investigations excluded cardioembolic, thrombotic, malignant, and infectious causes. Inflammatory markers were normal, whole-body 18 F-fluorodeoxyglucose positron emission tomography-computed tomography showed no hypermetabolic activity, and temporal artery biopsy was nondiagnostic. The clinical and imaging phenotype was consistent with LVV-spectrum disease, although the patient did not fulfill ACR/EULAR classification criteria for either giant cell arteritis or Takayasu arteritis. She was treated with corticosteroids and methotrexate, with stabilization of neurological deficits.
+
+CONCLUSION · Conclusion
+This case illustrates the limitations of existing classification frameworks when confronted with borderline or overlapping LVV phenotypes, particularly in elderly patients with atypical presentations, and underscores the importance of clinical judgment when evaluating atypical stroke presentations.
+

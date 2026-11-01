@@ -1,0 +1,10 @@
+# source: PMC13631860 (Frontiers in Surgery)
+# license: creativecommons.org/licenses/by/4.0
+# title: Spontaneous rupture and hemorrhage of a giant simple hepatic cyst in a 94-year-old woman: a case report
+
+FINDINGS · Case presentation
+A 94-year-old woman presented with chronic upper abdominal pain that suddenly worsened. Computed tomography revealed a giant complex cystic lesion measuring approximately 20 cm in the left hepatic lobe, with internal high-density areas and thin septations. The differential diagnosis included a complicated hepatic cyst with intracystic hemorrhage and mucinous cystic neoplasm of the liver (MCN-L). The patient initially remained clinically stable; however, she subsequently developed worsening abdominal pain, chest tightness, shortness of breath, hypotension, tachycardia, and a decrease in hemoglobin from 85 g/L to 76 g/L. Contrast-enhanced computed tomography demonstrated massive intraperitoneal fluid consistent with hemoperitoneum. Emergency laparoscopic exploration revealed approximately 1,000 mL of intraperitoneal blood and a ruptured giant left hepatic cyst filled with blood clots. Laparoscopic left hepatectomy was performed. Postoperative pathology confirmed a simple hepatic cyst. The patient recovered uneventfully and was discharged on postoperative day 9.
+
+CONCLUSION · Conclusion
+Spontaneous rupture with hemorrhage should be considered in elderly patients with giant hepatic cysts who develop acute abdominal pain and unexplained hemoglobin decline. Emergency laparoscopic surgery may provide definitive treatment, control bleeding, and allow pathological confirmation.
+

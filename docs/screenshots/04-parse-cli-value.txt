@@ -1,0 +1,59 @@
+Last login: Sun Nov  1 12:07:58 on ttys005
+kamini@KaminideMac-mini ~ % cd /Users/kamini/Desktop/RUN/Agent-GIT-CLAUDE-gpt/projects/round_022_20261031_173717/ultrasound-report-struct && export PATH="$HOME/.cargo/bin:$PATH" && echo '── 单份报告解析（parse 子命令）──' && cargo run --offline -- parse --text '左肾前后径 3.2cm' && echo && echo '── 认不出的值不猜：直接指回原文行列 ──' && cargo run --offline -- parse --text '左肾前后径 3.2'
+── 单份报告解析（parse 子命令）──
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.03s
+     Running `target/debug/ultrasound-report-struct parse --text '左肾前后径 3.2cm'`
+2026-11-01 07:20:34 INFO  DICT_LOADED dictionary_version=parts-0.2.0+items-0.1.0 version=parts-0.2.0+items-0.1.0 generation=1 parts_version=parts-0.2.0 parts_source=文件：assets/dictionary/parts.json items_version=items-0.1.0 items_source=文件：assets/dictionary/items.json
+解析完成：条目 1 条，失败 0 条
+[条目] part_key=kidney.left item_code=kidney.ap_diameter value_raw=3.2 unit_raw=cm value_si=32 unit_code=mm coercion_path=UnitConvert line=1 column=7
+
+── 认不出的值不猜：直接指回原文行列 ──
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.04s
+     Running `target/debug/ultrasound-report-struct parse --text '左肾前后径 3.2'`
+2026-11-01 07:20:34 INFO  DICT_LOADED dictionary_version=parts-0.2.0+items-0.1.0 version=parts-0.2.0+items-0.1.0 generation=1 parts_version=parts-0.2.0 parts_source=文件：assets/dictionary/parts.json items_version=items-0.1.0 items_source=文件：assets/dictionary/items.json
+解析完成：条目 0 条，失败 1 条
+[失败] error_code=UNIT_MISSING line=1 column=7 raw_snippet=3.2 detail=数值缺单位，未产出数值
+kamini@KaminideMac-mini ultrasound-report-struct % 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

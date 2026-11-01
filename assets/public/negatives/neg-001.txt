@@ -1,0 +1,10 @@
+# source: PMC13688657 (Case Reports in Ophthalmology)
+# license: creativecommons.org/licenses/by-nc/4.0
+# title: Torpedo Maculopathy with Associated Subretinal Fluid and No Detectable Macular Neovascularization: A Case Report
+
+FINDINGS · Case Presentation
+A 7-year-old boy assessed for amblyopia had best-corrected visual acuity (BCVA) of 20/70 OU and bilateral compound myopic astigmatism. An incidental, horizontal, torpedo-shaped hypopigmented lesion (∼1 disc diameter) was found in the right temporal macula with the apex toward the fovea. Optical coherence tomography showed marked SRF overlying a shallow chorioretinal excavation without retinal cavitation or adjacent layer loss. Optical coherence tomography angiography (OCTA) revealed no abnormal flow in outer retina or choriocapillaris slabs, and fluorescein angiography (FA) demonstrated early window defect without late leakage. These findings supported the absence of active or detectable macular neovascularization. No systemic disease or trauma history was reported. At 5-month follow-up, visual acuity and retinal imaging findings remained stable, with persistent SRF and no evidence of progression. Observation was recommended with parental counseling.
+
+CONCLUSION · Conclusion
+This is one of the youngest documented pediatric TM case with isolated SRF and no detectable macular neovascularization on OCTA and FA. The coexistence of classic torpedo morphology and serous neurosensory detachment highlights the importance of multimodal imaging to differentiate TM from mimics including central serous chorioretinopathy, retinal dystrophies, inflammatory scars, or neoplasia.
+

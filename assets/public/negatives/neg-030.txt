@@ -1,0 +1,10 @@
+# source: PMC13657598 (Medicine)
+# license: creativecommons.org/licenses/by/4.0
+# title: Analysis of a case of immune-related pancreatitis induced by anti-PD-1 antibody therapy for gastric cancer
+
+FINDINGS · Case presentation
+An 82-year-old female patient, post-gastrectomy for gastric cancer with subsequent cerebral metastases, multiple leptomeningeal metastases, subcutaneous metastases, and retroperitoneal lymph node metastases, received “nivolumab + apatinib” therapy for 4 cycles. On the second day of the fourth cycle of treatment, the patient developed mild epigastric pain, acid regurgitation, and elevated pancreatic enzyme levels, suggestive of immune-related pancreatitis. Alternative etiologies, including biliary disease, alcohol use, and hypertriglyceridemia, were excluded. The patient was classified as Grade 1 according to the Common Terminology Criteria for Adverse Events v5.0 and was managed with fasting, parenteral nutrition, octreotide, enzyme inhibition, and electrolyte balance adjustment. Pancreatic enzyme levels normalized, and symptoms resolved. Nivolumab and apatinib were subsequently withheld.
+
+CONCLUSION · Conclusion
+This case highlights that immune-related pancreatitis may present with only mild abdominal symptoms despite marked pancreatic enzyme elevation during immune checkpoint inhibitor therapy. Clinicians should maintain a high index of suspicion for pancreatic immune-related adverse events, even in the absence of typical imaging findings, and systematically exclude alternative causes to ensure timely and appropriate management.
+

@@ -1,0 +1,107 @@
+{
+  "dictionary": "parts",
+  "version": "parts-0.2.0",
+  "updated_at": "2026-11-01",
+  "scope": "泌尿系超声部位：肾 / 肾盂 / 肾盏 / 输尿管 / 膀胱（含左右与双侧）",
+  "note": "bases 是部位词面表（不含侧别修饰词 → 解剖基名）；entries 是规范部位键表（基名 + 侧别 → 完整别名，含侧别）。加载时互相校验：基名必须在 bases 里、规范键必须等于「基名 + 侧别后缀」、别名与词面都不得重复。任何一条对不上即判词典不合法（不猜、不回落）。",
+  "bases": [
+    { "base": "kidney", "word_faces": ["肾", "肾脏"] },
+    { "base": "renal_pelvis", "word_faces": ["肾盂"] },
+    { "base": "renal_calyx", "word_faces": ["肾盏"] },
+    { "base": "ureter", "word_faces": ["输尿管"] },
+    { "base": "bladder", "word_faces": ["膀胱"] }
+  ],
+  "entries": [
+    {
+      "part_key": "kidney.left",
+      "base": "kidney",
+      "side": "left",
+      "version": "parts-0.2.0",
+      "aliases": ["左肾", "左侧肾脏", "左肾脏", "左侧肾"]
+    },
+    {
+      "part_key": "kidney.right",
+      "base": "kidney",
+      "side": "right",
+      "version": "parts-0.2.0",
+      "aliases": ["右肾", "右侧肾脏", "右肾脏", "右侧肾"]
+    },
+    {
+      "part_key": "kidney.bilateral",
+      "base": "kidney",
+      "side": "bilateral",
+      "version": "parts-0.2.0",
+      "aliases": ["双肾", "双侧肾", "两侧肾"]
+    },
+    {
+      "part_key": "renal_pelvis.left",
+      "base": "renal_pelvis",
+      "side": "left",
+      "version": "parts-0.2.0",
+      "aliases": ["左肾盂", "左侧肾盂"]
+    },
+    {
+      "part_key": "renal_pelvis.right",
+      "base": "renal_pelvis",
+      "side": "right",
+      "version": "parts-0.2.0",
+      "aliases": ["右肾盂", "右侧肾盂"]
+    },
+    {
+      "part_key": "renal_pelvis.bilateral",
+      "base": "renal_pelvis",
+      "side": "bilateral",
+      "version": "parts-0.2.0",
+      "aliases": ["双肾盂", "双侧肾盂"]
+    },
+    {
+      "part_key": "renal_calyx.left",
+      "base": "renal_calyx",
+      "side": "left",
+      "version": "parts-0.2.0",
+      "aliases": ["左肾盏", "左侧肾盏"]
+    },
+    {
+      "part_key": "renal_calyx.right",
+      "base": "renal_calyx",
+      "side": "right",
+      "version": "parts-0.2.0",
+      "aliases": ["右肾盏", "右侧肾盏"]
+    },
+    {
+      "part_key": "renal_calyx.bilateral",
+      "base": "renal_calyx",
+      "side": "bilateral",
+      "version": "parts-0.2.0",
+      "aliases": ["双肾盏", "双侧肾盏"]
+    },
+    {
+      "part_key": "ureter.left",
+      "base": "ureter",
+      "side": "left",
+      "version": "parts-0.2.0",
+      "aliases": ["左输尿管", "左侧输尿管"]
+    },
+    {
+      "part_key": "ureter.right",
+      "base": "ureter",
+      "side": "right",
+      "version": "parts-0.2.0",
+      "aliases": ["右输尿管", "右侧输尿管"]
+    },
+    {
+      "part_key": "ureter.bilateral",
+      "base": "ureter",
+      "side": "bilateral",
+      "version": "parts-0.2.0",
+      "aliases": ["双输尿管", "双侧输尿管"]
+    },
+    {
+      "part_key": "bladder",
+      "base": "bladder",
+      "side": "none",
+      "version": "parts-0.2.0",
+      "aliases": ["膀胱"]
+    }
+  ]
+}

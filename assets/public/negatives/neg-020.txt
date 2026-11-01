@@ -1,0 +1,10 @@
+# source: PMC13668064 (Case Reports in Oncology)
+# license: creativecommons.org/licenses/by-nc/4.0
+# title: Pseudoprogression after Axi-cel in Primary Refractory PMBCL following Failed Bridging: Case Report and Management Considerations
+
+FINDINGS · Case presentation
+We report a 29-year-old woman with primary chemotherapy-refractory PMBCL who developed fulminant extranodal disease progression despite radiotherapy and systemic bridging therapy prior to planned axi-cel infusion. Following CAR T-cell therapy, she experienced grade 2 cytokine release syndrome and grade 3 immune effector cell-associated neurotoxicity syndrome, alongside clinical deterioration and radiological findings suggestive of disease progression. Notably, pronounced CAR T-cell expansion preceded biochemical improvement and subsequent radiological tumor regression, consistent with pseudoprogression rather than true treatment failure.
+
+CONCLUSION · Conclusion
+Despite initially misleading clinical and imaging findings in the context of suboptimal baseline conditions, the patient achieved a durable complete remission and remains disease-free 23 months post-CAR T-cell therapy, with excellent quality of life. This case highlights the critical importance of recognizing immune-mediated flare phenomena to guide clinical decision-making and avoid premature treatment discontinuation or misclassification of therapeutic failure.
+

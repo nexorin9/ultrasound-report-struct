@@ -1,0 +1,10 @@
+# source: PMC13647618 (BMC Pediatrics)
+# license: creativecommons.org/licenses/by-nc-nd/4.0
+# title: Bacterial versus parasitic liver abscesses in children: a retrospective cohort study of clinical and laboratory differences
+
+FINDINGS · Results
+This retrospective study included 80 children aged 1 month to 15 years diagnosed with liver abscess between 2018 and 2024. Overall, 85% of the patients resided in rural or mountainous areas, 60% were male, and nearly all (95%) were older than 6 months. Bacterial abscesses were significantly associated with high-grade fever (90.3% vs. 36.7%; p < 0.005), hepatomegaly (87.1% vs. 63.3%; p < 0.05), and splenomegaly (22.6% vs. 4.1%; p < 0.05). Patients with bacterial abscesses presented increased neutrophil percentages (61.5%), whereas those with parasitic abscesses presented a markedly increased incidence of eosinophilia > 10% (81.6% vs. 9.7%). Elevated CRP levels (> 100 mg/L) were more common in bacterial cases than in parasitic cases (54.8% vs. 24.5%). On imaging, solitary lesions were more common in bacterial abscesses (58.1%), whereas multiple cavities predominated in parasitic infections (73.5%).
+
+CONCLUSION · Conclusion
+Liver abscesses affected children most significantly in the over 6-month old and were more common in males, particularly those from rural or mountainous areas. Nonspecific presentations hinder early diagnosis; however, clinical features including high fever and hepatosplenomegaly, CRP levels, eosinophil counts, and characteristic imaging findings may assist in distinguishing bacterial from parasitic etiologies and support earlier targeted management.
+

@@ -1,0 +1,10 @@
+# source: PMC13675973 (International Medical Case Reports Journal)
+# license: creativecommons.org/licenses/by-nc/4.0
+# title: Multifactorial Contributors to Diagnostic Delay in a High-Risk Patient with Hepatocellular Carcinoma: A Case Report with Clinical Lessons
+
+FINDINGS · Case Presentation
+This case details a 45-year-old Chinese male with hepatitis B virus (HBV) infection, type 2 diabetes mellitus, and a family history of PLC. As a high-risk individual for PLC, he did not undergo regular PLC surveillance for three years. During opportunistic encounters for acute myocardial infarction and abdominal pain, the attending specialists failed to appreciate the progression of liver imaging findings. In addition, the COVID-19 pandemic may have further aggravated pre-existing difficulties with follow-up and access to care, contributing to a delayed diagnosis of PLC.
+
+CONCLUSION · Conclusion
+This case illustrates how a combination of physician-related, patient-related, and social-environmental factors contributed to surveillance failure and diagnostic delay in a high-risk patient with PLC. It reflects on why guideline-recommended interventions were not implemented at each healthcare encounter, how to correctly interpret AFP, and how to improve adherence to surveillance among high-risk populations for PLC. The insights from this case aim to inform systematic improvements in PLC monitoring for patients with chronic HBV infection.
+

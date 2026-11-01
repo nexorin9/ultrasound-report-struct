@@ -1,0 +1,10 @@
+# source: PMC13655330 (Journal of Gynecologic Oncology)
+# license: creativecommons.org/licenses/by-nc/4.0
+# title: Direct comparison of 5-aminolevulinic acid photodynamic diagnosis and white light inspection for detecting peritoneal dissemination in advanced ovarian cancer: a pilot study
+
+FINDINGS · Results
+Seven patients were enrolled between January and March 2019 and 71 biopsies were performed. The diagnoses included four cases of high-grade serous carcinoma, one clear cell carcinoma, one grade 3 endometrioid carcinoma, and one pseudomyxoma peritonei. The sensitivity, specificity, positive predictive value, and negative predictive value for detecting malignancy under WL were 87.8%, 59.0%, 82.7%, and 68.4%, respectively, compared with 96.0%, 90.5%, 96.0%, and 90.5% under FL. Additional metastatic lesions were identified in three patients subjected to 5-ALA imaging. No severe 5-ALA-related adverse events were observed.
+
+CONCLUSION · Conclusion
+5-ALA-based PDD demonstrated higher diagnostic accuracy than WL for detecting intraperitoneal dissemination of advanced OC. Its ability to enhance tumor detection may improve surgical precision and outcomes.
+

@@ -1,0 +1,10 @@
+# source: PMC13654217 (Journal of Medical Case Reports)
+# license: creativecommons.org/licenses/by/4.0
+# title: Bone marrow edema of the femoral head treated with extracorporeal magnetotransduction therapy and conservative management: a case series
+
+FINDINGS · Case presentations
+We report on two German male patients, aged 44 and 55, who presented with an acute onset of hip pain lasting four weeks, with no history of trauma. Both patients exhibited reduced hip mobility, and magnetic resonance imaging (MRI) scans confirmed bone marrow edema in the femoral head. Each patient underwent eight sessions of EMTT over four weeks (10,000 pulses, 8 Hz, intensity level 8), alongside standard conservative treatments, which included medication, physiotherapy and, in one patient, partial off-loading. At follow-up appointments (13 weeks and 9 weeks post-consultation, respectively), both patients reported complete pain relief and regained their range of motion. MRI results confirmed near-complete resolution of the edema in both cases.
+
+CONCLUSION · Conclusion
+In both patients, symptoms and MRI findings improved following EMTT administered together with conservative treatment, and the treatment was well tolerated. Considering the small number of patients, the concurrent interventions and the self-limiting natural history of bone marrow edema, a causal contribution of EMTT cannot be established from these observations. The favorable course nevertheless supports the formal evaluation of EMTT in this indication, and randomized controlled trials are needed to determine its efficacy in bone marrow edema.
+

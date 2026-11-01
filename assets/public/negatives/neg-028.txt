@@ -1,0 +1,10 @@
+# source: PMC13668071 (Case Reports in Ophthalmology)
+# license: creativecommons.org/licenses/by-nc/4.0
+# title: Dual Etiology in Optic Disc Elevation: A Pediatric Case with Coexisting Optic Disc Drusen and Elevated Cerebrospinal Fluid Pressure
+
+FINDINGS · Case Presentation
+A 13-year-old patient presented with complaints of decreased vision and headache. Visual acuity was 0.4 in the right eye and 1.0 in the left eye. Fundus examination revealed bilateral optic disc elevation, more prominent in the right eye. Cranial magnetic resonance imaging findings were consistent with increased intracranial pressure. During follow-up, the expected regression in optic disc elevation was not observed. Increased intracranial pressure was confirmed by a lumbar puncture with an opening pressure of 42 cm H 2 O, while optic disc drusen was confirmed by ultrasonography and fundus autofluorescence imaging.
+
+CONCLUSION · Conclusion
+Optic disc drusen may mimic papilledema but can also coexist with true papilledema. In cases with an atypical clinical course, multimodal imaging techniques contribute significantly to the differential diagnosis.
+

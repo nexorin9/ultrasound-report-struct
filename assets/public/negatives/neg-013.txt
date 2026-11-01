@@ -1,0 +1,10 @@
+# source: PMC13633743 (International Medical Case Reports Journal)
+# license: creativecommons.org/licenses/by-nc/4.0
+# title: Neonatal Gastric Perforation Temporally Associated with Nasogastric Tube Insertion: A Case Report
+
+FINDINGS · Case Presentation
+We describe a male preterm neonate, born at 34 weeks of gestation with a birth weight of 1.5 kg (small for gestational age), who developed acute abdominal distension and respiratory distress approximately 12 hours after nasogastric tube placement for enteral feeding. Abdominal radiography revealed significant pneumoperitoneum, indicating gastrointestinal perforation. Emergency exploratory laparotomy confirmed a 1-cm full-thickness gastric perforation along the greater curvature of the stomach. The perforation was repaired surgically, and the infant subsequently recovered with comprehensive postoperative intensive care management.
+
+CONCLUSION · Conclusion
+Clinicians should maintain a high index of suspicion for gastric perforation in neonates, particularly those born preterm or small for gestational age, who develop rapid abdominal distension, pneumoperitoneum, or signs of sepsis following nasogastric tube insertion. Because clinical and radiological findings alone often cannot reliably distinguish mechanical from ischemic causes, standardized insertion protocols, prompt radiological evaluation, and timely surgical intervention remain essential for improving survival and outcomes in this rare but serious condition.
+

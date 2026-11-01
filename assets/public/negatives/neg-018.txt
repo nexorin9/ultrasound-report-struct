@@ -1,0 +1,10 @@
+# source: PMC13644153 (BMC Surgery)
+# license: creativecommons.org/licenses/by-nc-nd/4.0
+# title: Diagnostic confirmation of adult sinonasal rhabdomyosarcoma through comprehensive immunohistochemical profiling: a case report
+
+FINDINGS · Case presentation
+A 27-year-old male presented with recurrent epistaxis and headache. MRI revealed an enhancing ethmoidal mass with intracranial extension. Following endoscopic surgery, initial pathology suggested neuroendocrine carcinoma. However, a detailed IHC panel showed strong nuclear positivity for MyoD1 and myogenin, confirming RMS. The tumor had a high Ki-67 index (~ 70%). FISH testing was negative for FOXO1 rearrangement, favoring embryonal subtype. Postoperative imaging confirmed complete resection. The patient received adjuvant chemotherapy and radiotherapy.
+
+CONCLUSION · Conclusion
+This case underscores the diagnostic difficulty of sinonasal RMS. A definitive diagnosis is contingent upon integrating imaging findings with histopathology and an extensive IHC panel to identify myogenic differentiation. Once confirmed, prompt, multimodal therapy administered through a specialized multidisciplinary center is critical for managing this aggressive neoplasm and optimizing patient outcome.
+

@@ -1,0 +1,35 @@
+case_id,expect_state,patient_id,part_key,item_code,current_value,current_unit,upstream_error,history,expect_delta,expect_direction,expect_hit_count,expect_error_code,expect_detail_code,note
+CB-001,has_history,PID-EXAMPLE,kidney.left,kidney.ap_diameter,3.2,cm,none,S-HIST-201|PID-EXAMPLE|kidney.left|kidney.ap_diameter|28|mm,4,增大,1,none,none,同侧同测项：当前 32mm 对历史 28mm
+CB-002,has_history,PID-EXAMPLE,kidney.left,kidney.ap_diameter,2.8,cm,none,S-HIST-202|PID-EXAMPLE|kidney.left|kidney.ap_diameter|28|mm,0,持平,1,none,none,归一后数值相同判持平
+CB-003,has_history,PID-EXAMPLE,kidney.left,kidney.ap_diameter,3.2,cm,none,S-HIST-203|PID-EXAMPLE|kidney.left|kidney.ap_diameter|32|mm,0,持平,1,none,none,历史值与当前值同值但写法不同
+CB-004,has_history,PID-EXAMPLE,kidney.left,kidney.ap_diameter,3.0,cm,none,S-HIST-204|PID-EXAMPLE|kidney.left|kidney.ap_diameter|28|mm,2,增大,1,none,none,当前比上次增大 2mm
+CB-005,has_history,PID-EXAMPLE,kidney.left,kidney.ap_diameter,2.4,cm,none,S-HIST-205|PID-EXAMPLE|kidney.left|kidney.ap_diameter|28|mm,-4,减小,1,none,none,当前比上次减小 4mm
+CB-006,has_history,PID-EXAMPLE,kidney.left,kidney.ap_diameter,32,mm,none,S-HIST-206|PID-EXAMPLE|kidney.left|kidney.ap_diameter|3.2|cm,0,持平,1,none,none,当前用 mm 历史用 cm 归一后同值
+CB-007,has_history,PID-EXAMPLE,kidney.left,kidney.ap_diameter,2.8,cm,none,S-HIST-207|PID-EXAMPLE|kidney.left|kidney.ap_diameter|3.0|cm,-2,减小,1,none,none,两侧都用 cm 归一后相减
+CB-008,has_history,PID-EXAMPLE,kidney.left,kidney.length,8.5,cm,none,S-HIST-208|PID-EXAMPLE|kidney.left|kidney.length|82|mm,3,增大,1,none,none,肾长测项：85mm 对 82mm
+CB-009,has_history,PID-002,bladder,bladder.residual_urine_volume,120,ml,none,S-HIST-209|PID-002|bladder|bladder.residual_urine_volume|80|mL,40,增大,1,none,none,容量族 mL 对 mL
+CB-010,has_history,PID-002,bladder,bladder.residual_urine_volume,0.5,L,none,S-HIST-210|PID-002|bladder|bladder.residual_urine_volume|400|mL,100,增大,1,none,none,L 归一到 mL 再相减
+CB-011,has_history,PID-EXAMPLE,kidney.left,kidney.ap_diameter,3.2,cm,none,S-HIST-211|PID-EXAMPLE|左肾|前后径|28|mm,4,增大,1,none,none,历史侧部位与测项都写院内别名 归一后对上
+CB-012,has_history,PID-EXAMPLE,kidney.left,kidney.ap_diameter,3.2,cm,none,S-HIST-212|PID-EXAMPLE|kidney.left|前后径|28|mm,4,增大,1,none,none,历史侧测项写词面
+CB-013,has_history,PID-EXAMPLE,kidney.left,kidney.ap_diameter,3.2,cm,none,S-HIST-213|PID-EXAMPLE|bladder|bladder.residual_urine_volume|80|mL;S-HIST-214|PID-EXAMPLE|kidney.left|kidney.ap_diameter|28|mm,4,增大,1,none,none,混进别的器官历史 排除后仍命中一条
+CB-014,has_history,PID-EXAMPLE,kidney.left,kidney.ap_diameter,3.2,cm,none,S-HIST-215|PID-EXAMPLE|kidney.right|kidney.ap_diameter|30|mm;S-HIST-216|PID-EXAMPLE|kidney.left|kidney.ap_diameter|28|mm,4,增大,1,none,none,右侧历史被排除 左侧命中
+CB-015,has_history,PID-EXAMPLE,kidney.left,kidney.ap_diameter,3.2,cm,none,S-HIST-217|PID-OTHER|kidney.left|kidney.ap_diameter|30|mm;S-HIST-218|PID-EXAMPLE|kidney.left|kidney.ap_diameter|28|mm,4,增大,1,none,none,跨患者的历史被排除 不与别人比
+CB-016,has_history,PID-EXAMPLE,kidney.bilateral,kidney.ap_diameter,3.4,cm,none,S-HIST-219|PID-EXAMPLE|kidney.bilateral|kidney.ap_diameter|30|mm,4,增大,1,none,none,双侧对双侧 侧别相同可比
+CB-017,first_time,PID-EXAMPLE,kidney.left,kidney.ap_diameter,3.2,cm,none,none,none,none,0,none,none,没有任何历史 首次检查 不是失败
+CB-018,first_time,PID-EXAMPLE,kidney.left,kidney.ap_diameter,3.2,cm,none,S-HIST-220|PID-EXAMPLE|bladder|bladder.residual_urine_volume|80|mL,none,none,0,none,none,历史是别的器官 排除后命中 0 条判首次
+CB-019,first_time,PID-EXAMPLE,kidney.left,kidney.ap_diameter,3.2,cm,none,S-HIST-221|PID-EXAMPLE|kidney.left|kidney.width|45|mm,none,none,0,none,none,历史测项不同 排除后命中 0 条判首次
+CB-020,first_time,PID-EXAMPLE,kidney.left,kidney.ap_diameter,3.2,cm,none,S-HIST-222|PID-EXAMPLE|kidney.right|kidney.ap_diameter|30|mm,none,none,0,none,none,历史是右侧 不是同一侧 排除后命中 0 条
+CB-021,first_time,PID-EXAMPLE,kidney.left,kidney.ap_diameter,3.2,cm,none,S-HIST-223|PID-EXAMPLE|kidney.bilateral|kidney.ap_diameter|26|mm,none,none,0,none,none,历史是双侧 不是同一个测量 排除后命中 0 条
+CB-022,first_time,PID-EXAMPLE,kidney.left,kidney.ap_diameter,3.2,cm,none,S-HIST-224|PID-EXAMPLE|kidney.left|kidney.ap_diameter|28|,none,none,0,none,none,历史缺单位 归一不了 排除后命中 0 条
+CB-023,first_time,PID-EXAMPLE,kidney.left,kidney.ap_diameter,3.2,cm,none,S-HIST-225|PID-EXAMPLE|kidney.left|kidney.ap_diameter|28|xx,none,none,0,none,none,历史单位未知 归一不了 排除后命中 0 条
+CB-024,first_time,PID-EXAMPLE,kidney.left,kidney.ap_diameter,3.2,cm,none,S-HIST-226|PID-EXAMPLE|kidney.left|kidney.ap_diameter||mm,none,none,0,none,none,历史缺数值 排除后命中 0 条
+CB-025,first_time,PID-EXAMPLE,kidney.left,kidney.ap_diameter,3.2,cm,none,S-HIST-227|PID-EXAMPLE|胆囊|胆囊长|40|mm,none,none,0,none,none,历史部位认不出 排除后命中 0 条
+CB-026,first_time,PID-EXAMPLE,kidney.left,kidney.ap_diameter,3.2,cm,none,S-HIST-228|PID-EXAMPLE|||28|mm,none,none,0,none,none,历史没写部位 排除后命中 0 条
+CB-027,ambiguous,PID-EXAMPLE,kidney.left,kidney.ap_diameter,3.2,cm,none,S-HIST-229|PID-EXAMPLE|kidney.left|kidney.ap_diameter|28|mm;S-HIST-230|PID-EXAMPLE|kidney.left|kidney.ap_diameter|30|mm,none,none,2,COMPARISON_AMBIGUOUS,COMPARISON_MULTIPLE_REPORTS,两份历史报告各命中一条 差值不唯一 不任取其一
+CB-028,ambiguous,PID-EXAMPLE,kidney.left,kidney.ap_diameter,3.2,cm,none,S-HIST-231|PID-EXAMPLE|kidney.left|kidney.ap_diameter|28|mm;S-HIST-231|PID-EXAMPLE|kidney.left|kidney.ap_diameter|30|mm,none,none,2,COMPARISON_AMBIGUOUS,COMPARISON_MULTIPLE_MEASUREMENTS,同一份历史检查号下同测项两条测量值
+CB-029,ambiguous,PID-EXAMPLE,kidney.left,kidney.ap_diameter,3.2,cm,none,S-HIST-232|PID-EXAMPLE|kidney.left|kidney.ap_diameter|28|mm;S-HIST-233|PID-EXAMPLE|kidney.left|kidney.ap_diameter|30|mm;S-HIST-234|PID-EXAMPLE|kidney.left|kidney.ap_diameter|31|mm,none,none,3,COMPARISON_AMBIGUOUS,COMPARISON_MULTIPLE_REPORTS,三份历史命中 一律不给差值
+CB-030,ambiguous,PID-EXAMPLE,kidney.left,kidney.ap_diameter,3.2,cm,none,S-HIST-235|PID-EXAMPLE|bladder|bladder.residual_urine_volume|80|mL;S-HIST-236|PID-EXAMPLE|kidney.left|kidney.ap_diameter|28|mm;S-HIST-237|PID-EXAMPLE|kidney.left|kidney.ap_diameter|30|mm,none,none,2,COMPARISON_AMBIGUOUS,COMPARISON_MULTIPLE_REPORTS,混进一条别的器官 命中仍是两条判歧义
+CB-031,comparison_skipped,PID-EXAMPLE,kidney.left,kidney.ap_diameter,3.2,cm,upstream_unavailable,none,none,none,0,RIS_UPSTREAM_UNAVAILABLE,RIS_TIMEOUT,RIS 够不着 本轮没比成 不等于无差异
+CB-032,comparison_skipped,PID-EXAMPLE,kidney.left,kidney.ap_diameter,3.2,cm,auth_failed,none,none,none,0,RIS_AUTH_FAILED,RIS_UNAUTHORIZED,鉴权失败 重试无意义 要人去换令牌
+CB-033,comparison_skipped,PID-EXAMPLE,kidney.left,kidney.ap_diameter,3.2,cm,bad_response,none,none,none,0,RIS_BAD_RESPONSE,RIS_BODY_NOT_JSON,响应不合契约 差值不产出
+CB-034,comparison_skipped,PID-EXAMPLE,kidney.left,kidney.ap_diameter,3.2,cm,not_configured,none,none,none,0,RIS_NOT_CONFIGURED,none,端点或凭据未配置 差值不产出

@@ -1,0 +1,51 @@
+{
+  "dictionary": "items",
+  "version": "items-0.1.0",
+  "updated_at": "2026-11-01",
+  "scope": "泌尿系超声测项：肾前后径 / 肾长 / 肾宽 / 肾盂前后径 / 输尿管内径 / 膀胱内径 / 残余尿量（含别名写法）",
+  "note": "entries 是测项词面表：alias（报告里写的测项词）→ suffix（测项码后缀）+ bases（该测项适用的部位基名）。规范测项码 = 部位基名 + \".\" + suffix（如 kidney + ap_diameter → kidney.ap_diameter）。别名不得重复；suffix 不得为空；bases 必须逐条限定且不得为空 —— 残余尿量是膀胱的测量，不是肾的测量；不限定就会编出「肾残余尿量」这种不存在的口径，拿不存在的历史值去比。加载时互相校验：别名不重复、后缀非空、适用部位非空且不得重复、部位基名必须在部位词典（parts.json）里存在。",
+  "entries": [
+    {
+      "alias": "残余尿量",
+      "suffix": "residual_urine_volume",
+      "bases": ["bladder"],
+      "version": "items-0.1.0"
+    },
+    {
+      "alias": "前后径",
+      "suffix": "ap_diameter",
+      "bases": ["kidney", "renal_pelvis"],
+      "version": "items-0.1.0"
+    },
+    {
+      "alias": "长度",
+      "suffix": "length",
+      "bases": ["kidney", "renal_pelvis"],
+      "version": "items-0.1.0"
+    },
+    {
+      "alias": "宽度",
+      "suffix": "width",
+      "bases": ["kidney", "renal_pelvis"],
+      "version": "items-0.1.0"
+    },
+    {
+      "alias": "内径",
+      "suffix": "inner_diameter",
+      "bases": ["ureter", "bladder"],
+      "version": "items-0.1.0"
+    },
+    {
+      "alias": "长",
+      "suffix": "length",
+      "bases": ["kidney", "renal_pelvis"],
+      "version": "items-0.1.0"
+    },
+    {
+      "alias": "宽",
+      "suffix": "width",
+      "bases": ["kidney", "renal_pelvis"],
+      "version": "items-0.1.0"
+    }
+  ]
+}

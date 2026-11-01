@@ -1,0 +1,10 @@
+# source: PMC13682734 (International Brazilian Journal of Urology : Official Journal of the Brazilian Society of Urology)
+# license: creativecommons.org/licenses/by/4.0
+# title: Malleable Penile Prosthesis Fractures: Lessons Learned from 17 Years of Experience at a Tertiary Center in Brazil
+
+FINDINGS · Results
+Among 741 penile prosthetic procedures, 98 were revisions and 52 (53.1%) were due to MPP fracture. Median time from implantation to fracture was 59 months (IQR 24.8–84.0). Penile instability was the most common symptom (96.1%), while pain was reported in 21.1%. Physical examination correctly identified fractures in 88.5% of cases, outperforming radiography and magnetic resonance imaging. Bilateral fractures occurred in 51.9% of revisions, most commonly in the proximal segment. Recurrent fractures occurred in 28.2% of patients.
+
+CONCLUSION · Conclusions
+MPP fractures are more prevalent than expected and a clinically relevant complication in high-volume centers. Diagnosis relies primarily on clinical assessment, with physical examination outperforming imaging modalities. Increased awareness of typical presentation patterns may support earlier recognition and more efficient management. Prospective studies are needed to identify modifiable risk factors, improve device design and quality, and advise patients on use to potentially improve prosthesis lifetime.
+

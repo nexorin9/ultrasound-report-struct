@@ -1,0 +1,556 @@
+code,name,class,source,in_project_scope
+%,percent,dimless,essence,否
+',minute,iso1000,essence,否
+'',second,iso1000,essence,否
+/L,per liter,,spec,否
+/[HPF],per high power field,,spec,否
+/[arb'U],per arbitrary unit,,spec,否
+/[iU],per international unit,,spec,否
+/kg,per kilogram,,spec,否
+/m2,per square meter,,spec,否
+/mL,per milliliter,,spec,否
+/min,per minute,,spec,否
+/{tot},per total count,,spec,否
+10*,the number ten for arbitrary powers,dimless,essence,否
+10^,the number ten for arbitrary powers,dimless,essence,否
+< ATOM-SYMBOL > | < PREFIX-SYMBOL >< ATOM-SYMBOL[metric] >,< simple-unit >,::=,spec,否
+< annotatable >< annotation > | < annotatable > | < annotation > | < factor > | “ ( ”< term >“ ) ”,< component >,::=,spec,否
+< digit >< digits > | < digit >,< digits >,::=,spec,否
+< digits >,< factor >,::=,spec,否
+< sign >< digits > | < digits >,< exponent >,::=,spec,否
+< simple-unit >< exponent > | < simple-unit >,< annotatable >,::=,spec,否
+< term >“ . ”< component > | < term >“ / ”< component > | < component >,< term >,::=,spec,否
+A,amp&#232;re,si,essence,否
+A/m,ampere per meter,,spec,否
+AU,astronomic unit,iso1000,essence,否
+Ao,&#197;ngstr&#246;m,misc,essence,否
+B,bel,level,spec,否
+B(10 nV),bel 10 nanovolt,electric potential level,spec,否
+B(SPL),bel sound pressure,pressure level,spec,否
+B(V),bel volt,electric potential level,spec,否
+B(W),bel watt,power level,spec,否
+B(kW),bel kilowatt,power level,spec,否
+B(mV),bel millivolt,electric potential level,spec,否
+B(μV),bel microvolt,electric potential level,spec,否
+Bd,baud,infotech,essence,否
+Bi,Biot,cgs,essence,否
+Bq,becquerel,si,essence,否
+By,byte,infotech,essence,否
+C,coulomb,electric charge,spec,否
+CFU,colony forming units,amount of a proliferating organism,spec,否
+Cal,nutrition label Calories,energy,spec,否
+Ch,"Charrière, french",gauge of catheters,spec,否
+Ci,Curie,cgs,essence,否
+F,farad,si,essence,否
+FFU,focus forming units,amount of an infectious agent,spec,否
+G,Gauss,cgs,essence,否
+Gal,Gal,cgs,essence,否
+Gb,Gilbert,cgs,essence,否
+Gs, G,Gauss,magnetic flux density,spec,否
+Gy,gray,si,essence,否
+H,henry,si,essence,否
+HF,Hounsfield unit,x-ray attenuation,spec,否
+HPF,high power field,view area in microscope,spec,否
+Hz,hertz,si,essence,否
+IR,index of reactivity,amount of an allergen calibrated through in-vivo testing using the Stallergenes® method,spec,否
+IU,international unit,arbitrary,spec,否
+J,joule,si,essence,否
+J/L,joule per liter,,spec,否
+K,kelvin,temperature,spec,否
+K/W,kelvin per watt,,spec,否
+Ky,Kayser,cgs,essence,否
+L,liter,iso1000,essence,是
+L/(8.h),liter per 8-hour shift,,spec,否
+L/(min.m2),liter per minute and square meter,,spec,否
+L/d,liter per day,,spec,否
+L/h,liter per hour,,spec,否
+L/kg,liter per kilogram,,spec,否
+L/min,liter per minute,,spec,否
+L/s,liter per second,,spec,否
+LPF,low power field,view area in microscope,spec,否
+Lf,Limit of flocculation,procedure defined amount of an antigen substance,spec,否
+Lmb,Lambert,cgs,essence,否
+MET,metabolic equivalent,metabolic cost of physical activity,spec,否
+Ms,megasecond,,spec,否
+Mx,Maxwell,cgs,essence,否
+N,newton,si,essence,否
+N.s,newton second,,spec,否
+Np,neper,level,spec,否
+Oe,Oersted,cgs,essence,否
+Ohm,ohm,si,essence,否
+Ohm.m,ohm meter,,spec,否
+P,Poise,cgs,essence,否
+PD,prism diopter,refraction of a prism,spec,否
+PFU,plaque forming units,amount of an infectious agent,spec,否
+PNU,protein nitrogen unit,procedure defined amount of a protein substance,spec,否
+Pa,pascal,si,essence,否
+R,Roentgen,cgs,essence,否
+R.B.C.,red blood cell count,number,spec,否
+RAD,radiation absorbed dose,cgs,essence,否
+REM,radiation equivalent man,cgs,essence,否
+S,siemens,si,essence,否
+St,Stokes,cgs,essence,否
+Sv,sievert,si,essence,否
+T,tesla,si,essence,否
+Type IVa (metric-nonmetric),Gb,G-b,spec,否
+U,Unit,chemical,essence,否
+V,volt,si,essence,否
+W,watt,si,essence,否
+Wb,weber,si,essence,否
+Wood U.,Wood unit,fluid resistance,spec,否
+[Btu],British thermal unit,heat,essence,否
+[Btu_39],British thermal unit at 39&#160;&#176;F,heat,essence,否
+[Btu_59],British thermal unit at 59&#160;&#176;F,heat,essence,否
+[Btu_60],British thermal unit at 60&#160;&#176;F,heat,essence,否
+[Btu_IT],international table British thermal unit,heat,essence,否
+[Btu_m],mean British thermal unit,heat,essence,否
+[Btu_th],thermochemical British thermal unit,heat,essence,否
+[Cal],nutrition label Calories,heat,essence,否
+[Ch],Charri&#232;re,clinical,essence,否
+[FNU],Formazin Nephelometric Unit,misc,essence,否
+[G],Newtonian constant of gravitation,const,essence,否
+[HPF],high power field,chemical,essence,否
+[HP],horsepower,heat,essence,否
+[LPF],low power field,chemical,essence,否
+[MET],metabolic equivalent,clinical,essence,否
+[NTU],Nephelometric Turbidity Unit,misc,essence,否
+[PRU],peripheral vascular resistance unit,clinical,essence,否
+[S],Svedberg unit,chemical,essence,否
+[acr_br],acre,brit-length,essence,否
+[acr_us],acre,us-lengths,essence,否
+[bbl_us],barrel,us-volumes,essence,否
+[bf_i],board foot,intcust,essence,否
+[bu_br],bushel,brit-volumes,essence,否
+[bu_us],bushel,us-volumes,essence,否
+[c],velocity of light,const,essence,否
+[car_Au],carat of gold alloys,misc,essence,否
+[car_m],metric carat,misc,essence,否
+[cft_i],cubic foot,intcust,essence,否
+[ch_br],Gunter's chain,brit-length,essence,否
+[ch_us],Gunter's chain,us-lengths,essence,否
+[cicero],cicero,typeset,essence,否
+[cin_i],cubic inch,intcust,essence,否
+[cml_i],circular mil,intcust,essence,否
+[cr_i],cord,intcust,essence,否
+[crd_us],cord,us-volumes,essence,否
+[cup_m],metric cup,us-volumes,essence,否
+[cup_us],cup,us-volumes,essence,否
+[cyd_i],cubic yard,intcust,essence,否
+[degR],degree Rankine,heat,essence,否
+[den],Denier,heat,essence,否
+[didot],didot,typeset,essence,否
+[diop],diopter,clinical,essence,否
+[dpt_us],dry pint,us-volumes,essence,否
+[dqt_us],dry quart,us-volumes,essence,否
+[dr_ap],dram,apoth,essence,否
+[dr_av],dram,avoirdupois,essence,否
+[drp],drop,clinical,essence,否
+[e],elementary charge,const,essence,否
+[eps_0],permittivity of vacuum,const,essence,否
+[fdr_br],fluid dram,brit-volumes,essence,否
+[fdr_us],fluid dram,us-volumes,essence,否
+[foz_br],fluid ounce,brit-volumes,essence,否
+[foz_m],metric fluid ounce,us-volumes,essence,否
+[foz_us],fluid ounce,us-volumes,essence,否
+[ft_br],foot,brit-length,essence,否
+[ft_i],foot,intcust,essence,否
+[ft_us],foot,us-lengths,essence,否
+[fth_br],fathom,brit-length,essence,否
+[fth_i],fathom,intcust,essence,否
+[fth_us],fathom,us-lengths,essence,否
+[fur_us],furlong,us-lengths,essence,否
+[g],standard acceleration of free fall,const,essence,否
+[gal_br],gallon,brit-volumes,essence,否
+[gal_us],Queen&#160;Anne's wine gallon,us-volumes,essence,否
+[gal_wi],historical winchester gallon,us-volumes,essence,否
+[gil_br],gill,brit-volumes,essence,否
+[gil_us],gill,us-volumes,essence,否
+[gr],grain,avoirdupois,essence,否
+[h],Planck constant,const,essence,否
+[hd_i],hand,intcust,essence,否
+[hnsf'U],Hounsfield unit,clinical,essence,否
+[iU]/L,international unit per liter,,spec,否
+[iU]/d,international unit per day,,spec,否
+[iU]/h,international unit per hour,,spec,否
+[iU]/kg,international unit per kilogram,,spec,否
+[iU]/mL,international unit per milliliter,,spec,否
+[iU]/min,international unit per minute,,spec,否
+[in_br],inch,brit-length,essence,否
+[in_i'H2O],inch of water column,clinical,essence,否
+[in_i'Hg],inch of mercury column,clinical,essence,否
+[in_i],inch,intcust,essence,否
+[in_us],inch,us-lengths,essence,否
+[k],Boltzmann constant,const,essence,否
+[kn_br],knot,brit-length,essence,否
+[kn_i],knot,intcust,essence,否
+[lb_ap],pound,apoth,essence,否
+[lb_av],pound,avoirdupois,essence,否
+[lb_tr],pound,troy,essence,否
+[lbf_av],pound force,const,essence,否
+[lcwt_av],long hundredweight,avoirdupois,essence,否
+[ligne],ligne,typeset,essence,否
+[lk_br],link for Gunter's chain,brit-length,essence,否
+[lk_us],link for Gunter's chain,us-lengths,essence,否
+[lne],line,typeset,essence,否
+[lton_av],long ton,avoirdupois,essence,否
+[ly],light-year,const,essence,否
+[m_e],electron mass,const,essence,否
+[m_p],proton mass,const,essence,否
+[mesh_i],mesh,clinical,essence,否
+[mi_br],mile,brit-length,essence,否
+[mi_i],mile,intcust,essence,否
+[mi_us],mile,us-lengths,essence,否
+[mil_i],mil,intcust,essence,否
+[mil_us],mil,us-lengths,essence,否
+[min_br],minim,brit-volumes,essence,否
+[min_us],minim,us-volumes,essence,否
+[mu_0],permeability of vacuum,const,essence,否
+[nmi_br],nautical mile,brit-length,essence,否
+[nmi_i],nautical mile,intcust,essence,否
+[oz_ap],ounce,apoth,essence,否
+[oz_av],ounce,avoirdupois,essence,否
+[oz_m],metric ounce,apoth,essence,否
+[oz_tr],ounce,troy,essence,否
+[pc_br],pace,brit-length,essence,否
+[pca],pica,typeset,essence,否
+[pca_pr],Printer's pica,typeset,essence,否
+[pi],the number pi,dimless,essence,否
+[pied],pied,typeset,essence,否
+[pk_br],peck,brit-volumes,essence,否
+[pk_us],peck,us-volumes,essence,否
+[pnt],point,typeset,essence,否
+[pnt_pr],Printer's point,typeset,essence,否
+[pouce],pouce,typeset,essence,否
+[ppb],parts per billion,dimless,essence,否
+[ppm],parts per million,dimless,essence,否
+[ppth],parts per thousand,dimless,essence,否
+[pptr],parts per trillion,dimless,essence,否
+[psi],pound per square inch,misc,essence,否
+[pt_br],pint,brit-volumes,essence,否
+[pt_us],pint,us-volumes,essence,否
+[pwt_tr],pennyweight,troy,essence,否
+[qt_br],quart,brit-volumes,essence,否
+[qt_us],quart,us-volumes,essence,否
+[rch_us],Ramden's chain,us-lengths,essence,否
+[rd_br],rod,brit-length,essence,否
+[rd_us],rod,us-lengths,essence,否
+[rlk_us],link for Ramden's chain,us-lengths,essence,否
+[sc_ap],scruple,apoth,essence,否
+[sct],section,us-lengths,essence,否
+[scwt_av],short hundredweight,avoirdupois,essence,否
+[sft_i],square foot,intcust,essence,否
+[sin_i],square inch,intcust,essence,否
+[smi_us],square mile,us-lengths,essence,否
+[smoot],Smoot,misc,essence,否
+[srd_us],square rod,us-lengths,essence,否
+[ston_av],short ton,avoirdupois,essence,否
+[stone_av],stone,avoirdupois,essence,否
+[syd_i],square yard,intcust,essence,否
+[tbs_m],metric tablespoon,us-volumes,essence,否
+[tbs_us],tablespoon,us-volumes,essence,否
+[tsp_m],metric teaspoon,us-volumes,essence,否
+[tsp_us],teaspoon,us-volumes,essence,否
+[twp],township,us-lengths,essence,否
+[wood'U],Wood unit,clinical,essence,否
+[yd_br],yard,brit-length,essence,否
+[yd_i],yard,intcust,essence,否
+[yd_us],yard,us-lengths,essence,否
+a,year,iso1000,essence,否
+a g,mean Gregorian year,time,spec,否
+a j,mean Julian year,time,spec,否
+a t,tropical year,time,spec,否
+a_g,mean Gregorian year,iso1000,essence,否
+a_j,mean Julian year,iso1000,essence,否
+a_t,tropical year,iso1000,essence,否
+ar,are,iso1000,essence,否
+arb. U,arbitrary unit,arbitrary,spec,否
+at,technical atmosphere,pressure,spec,否
+atm,standard atmosphere,const,essence,否
+att,technical atmosphere,misc,essence,否
+b,barn,misc,essence,否
+bar,bar,iso1000,essence,否
+billion per cubic millimeter,10*9/mm3,/fL,spec,否
+billion per liter,10*9/L,/nL,spec,否
+billion per milliliter,10*9/mL,/pL,spec,否
+bit,bit,infotech,essence,否
+bit s,bit,amount of information,spec,否
+btu,British thermal unit,energy,spec,否
+c,velocity of light,velocity,spec,否
+cal,calorie,heat,essence,否
+cal 15°C,calorie at 15 °C,energy,spec,否
+cal 20°C,calorie at 20 °C,energy,spec,否
+cal m,mean calorie,energy,spec,否
+cal th,thermochemical calorie,energy,spec,否
+cal_IT,international table calorie,heat,essence,否
+cal_[15],calorie at 15&#160;&#176;C,heat,essence,否
+cal_[20],calorie at 20&#160;&#176;C,heat,essence,否
+cal_m,mean calorie,heat,essence,否
+cal_th,thermochemical calorie,heat,essence,否
+cd,candela,luminous intensity,spec,否
+centimeter H20 per ( liter per second ) (centimeter H20 second per liter),cm[H2O].s/L,cm[H2O]/(L/s),spec,否
+centimeter H20 per second and meter,cm[H2O]/(s.m),cm[H2O]/s/m,spec,否
+circ,circle,misc,essence,否
+cm,centimeter,,spec,是
+cm2/s,square centimeter per second,,spec,否
+cm[H2O],centimeter H2O,,spec,否
+ct Au,carat of gold alloys,mass fraction,spec,否
+ct m,metric carat,mass,spec,否
+d,day,iso1000,essence,否
+deg,degree,iso1000,essence,否
+den,Denier,linear mass density (of textile thread),spec,否
+dm2/s2,square dekameter per square second,,spec,否
+dpt,diopter,refraction of a lens,spec,否
+drp,drop,volume,spec,否
+dyn,dyne,cgs,essence,否
+dyne second per centimeter5,10.uN.s/cm5,dyn.s/cm5,spec,否
+dyne second per centimeter5 and square meter,10.uN.s/(cm5.m2),dyn.s/(cm5.m2) dyn.s/cm5/m2,spec,否
+e,elementary charge,electric charge,spec,否
+eV,electronvolt,iso1000,essence,否
+eq,equivalents,chemical,essence,否
+erg,erg,cgs,essence,否
+fL,femtoliter,,spec,否
+fg,femtogram,,spec,否
+fmol,femtomole,,spec,否
+g,gram,mass,spec,否
+g%,gram percent,chemical,essence,否
+g.m,gram meter,,spec,否
+g/(8.h),gram per 8-hour shift,,spec,否
+g/L,gram per liter,,spec,否
+g/d,gram per day,,spec,否
+g/dL,gram per deciliter,,spec,否
+g/h,gram per hour,,spec,否
+g/m2,gram per square meter,,spec,否
+g/min,gram per minute,,spec,否
+gf,gram-force,const,essence,否
+gf.m,gram-force meter,,spec,否
+gon,gon,iso1000,essence,否
+gram per kilogram,g/kg,1/1000,spec,否
+gram per kilogram and 8-hour shift,g/(8.kg.h),g/kg/(8.h) 125/h,spec,否
+gram per kilogram and day,g/(kg.d),g/kg/d,spec,否
+gram per kilogram and hour,g/(kg.h),g/kg/h 10*-3/h,spec,否
+gram per kilogram and minute,g/(kg.min),g/kg/min 10*-3/min,spec,否
+gram-force meter per heartbeat,gf.m/{hb},gf.m,spec,否
+gram-force meter per heartbeat and square meter,gf.m/({hb}.m2),gf.m/{hb}/m2 gf/m,spec,否
+g· m/H.B.,gram meter per heartbeat,proportional to ventricular stroke work,spec,否
+h,hour,iso1000,essence,否
+hL,hectoliter,,spec,否
+i.U.,international unit,arbitrary,spec,否
+in H 2 O,inch of water column,pressure,spec,否
+in Hg,inch of mercury column,pressure,spec,否
+k,Boltzmann constant,(unclassified),spec,否
+kPa,kilopascal,,spec,否
+kat,katal,chemical,essence,否
+kat/L,katal per liter,,spec,否
+kat/kg,katal per kilogram,,spec,否
+kcal,kilocalorie,,spec,否
+kcal/(8.h),kilocalorie per 8-hour shift,,spec,否
+kcal/d,kilocalorie per day,,spec,否
+kcal/h,kilocalorie per hour,,spec,否
+kg,kilogram,,spec,否
+kg(wet tissue),kilogram of wet tissue,mass,spec,否
+kg.m/s,kilogram meter per second,,spec,否
+kg/(s.m2),kilogram per second and square meter,,spec,否
+kg/L,kilogram per liter,,spec,否
+kg/h,kilogram per hour,,spec,否
+kg/m2,kilogram per square meter,,spec,否
+kg/m3,kilogram per cubic meter,,spec,否
+kg/min,kilogram per minute,,spec,否
+kg/mol,kilogram per mole,,spec,否
+kg/s,kilogram per second,,spec,否
+ks,kilosecond,,spec,否
+l,liter,iso1000,essence,否
+l.y.,light-year,length,spec,否
+lbf,pound force,force,spec,否
+liter square second per second,L.s2/s,L.s,spec,否
+lm,lumen,si,essence,否
+lm/m2,lumen per square meter,,spec,否
+lx,lux,si,essence,否
+m,meter,length,spec,是
+m H 2 O,meter of water column,pressure,spec,否
+m Hg,meter of mercury column,pressure,spec,否
+m e,electron mass,mass,spec,否
+m p,proton mass,mass,spec,否
+m/s,meter per second,,spec,否
+m/s2,meter per square second,,spec,否
+m2,square meter,,spec,否
+m2/s,square meter per second,,spec,否
+m3/s,cubic meter per second,,spec,否
+mL,milliliter,,spec,是
+mL/(8.h),milliliter per 8-hour shift,,spec,否
+mL/cm[H2O],milliliter per centimeters H20,,spec,否
+mL/d,milliliter per day,,spec,否
+mL/h,milliliter per hour,,spec,否
+mL/kg,milliliter per kilogram,,spec,否
+mL/m2,milliliter per square meter,,spec,否
+mL/mbar,milliliter per millibar,,spec,否
+mL/min,milliliter per minute,,spec,否
+mL/s,milliliter per second,,spec,否
+mL/{h'b},milliliter per heartbeat,,spec,否
+mV,millivolt,,spec,否
+m[H2O],meter of water column,clinical,essence,否
+m[Hg],meter of mercury column,clinical,essence,否
+m[iU]/mL,milli-international unit per milliliter,,spec,否
+mbar,millibar,,spec,否
+meq,milliequivalent,,spec,否
+meq/(8.h),milliequivalent per 8-hour shift,,spec,否
+meq/L,milliequivalent per liter,,spec,否
+meq/d,milliequivalent per day,,spec,否
+meq/h,milliequivalent per hour,,spec,否
+meq/kg,milliequivalent per kilogram,,spec,否
+meq/m2,milliequivalent per square meter,,spec,否
+meq/min,milliequivalent per minute,,spec,否
+mg,milligram,,spec,否
+mg(creat.),milligram of creatinine,mass,spec,否
+mg/(8.h),milligram per 8-hour shift,,spec,否
+mg/L,milligram per liter,,spec,否
+mg/d,milligram per day,,spec,否
+mg/dL,milligram per deciliter,,spec,否
+mg/h,milligram per hour,,spec,否
+mg/m2,milligram per square meter,,spec,否
+mg/m3,milligram per cubic meter,,spec,否
+mg/min,milligram per minute,,spec,否
+mho,mho,misc,essence,否
+microgram per kilogram and day,ug/(kg.d),ug/kg/d,spec,否
+microgram per kilogram and hour,ug/(kg.h),ug/kg/h,spec,否
+microgram per kilogram and minute,ug/(kg.min),ug/kg/min,spec,否
+millibar per (liter per second) = millibar second per liter,mbar.s/L,mbar/(L.s),spec,否
+milliequivalent per kilogram and 8-hour shift,meq/(8.h.kg),meq/kg/(8.h),spec,否
+milliequivalent per kilogram and minute,meq/(kg.min),meq/kg/min,spec,否
+milliequivalent per kilogram per day,meq/(kg.d),meq/kg/d,spec,否
+milliequivalent per kilogram per hour,meq/(kg.h),meq/kg/h,spec,否
+milligram per kilogram,mg/kg,10*-6,spec,否
+milligram per kilogram and 8-hour shift,mg/(8.h.kg),mg/kg/(8.h) 10*-6/(8.h),spec,否
+milligram per kilogram and day,mg/(kg.d),mg/kg/d 10*-6/d,spec,否
+milligram per kilogram and hour,mg/(kg.h),mg/kg/h 10*-6/h,spec,否
+milligram per kilogram and minute,mg/(kg.min),mg/kg/min 10*-6/min,spec,否
+milliliter per heartbeat per square meter,mL/({h'b}.m2),mL/m2,spec,否
+milliliter per kilogram and 8-hour shift,mL/(8.h.kg),mL/kg/(8.h),spec,否
+milliliter per kilogram and day,mL/(kg.d),mL/kg/d,spec,否
+milliliter per kilogram and hour,mL/(kg.h),mL/kg/h,spec,否
+milliliter per kilogram and minute,mL/(kg.min),mL/kg/min,spec,否
+milliliter per minute and square meter,mL/(min.m2),mL/m2/min,spec,否
+millimole per kilogram and 8-hour shift,mmol/(8.h.kg),mmol/kg/(8.h),spec,否
+millimole per kilogram and day,mmol/(kg.d),mmol/kg/d,spec,否
+millimole per kilogram and hour,mmol/(kg.h),mmol/kg/h,spec,否
+millimole per kilogram and minute,mmol/(kg.min),mmol/kg/min,spec,否
+million per cubic millimeter,10*6/mm3,/pL,spec,否
+million per liter,10*6/L,/uL,spec,否
+million per milliliter,10*6/mL,/nL,spec,否
+min,minute,iso1000,essence,否
+mm,millimeter,,spec,是
+mm/h,millimeter hour,,spec,否
+mm[Hg],millimeter Mercury column,,spec,否
+mmol/(8.h),millimole per 8-hour shift,,spec,否
+mmol/L,millimole per liter,,spec,否
+mmol/h,millimole per hour,,spec,否
+mmol/kg,millimole per kilogram,,spec,否
+mmol/m2,millimole per square meter,,spec,否
+mmol/min,millimole per minute,,spec,否
+mo,month,iso1000,essence,否
+mo g,mean Gregorian month,time,spec,否
+mo j,mean Julian month,time,spec,否
+mo s,synodal month,time,spec,否
+mo_g,mean Gregorian month,iso1000,essence,否
+mo_j,mean Julian month,iso1000,essence,否
+mo_s,synodal month,iso1000,essence,否
+mol,mole,si,essence,否
+mol/L,mole per liter,,spec,否
+mol/kg,mole per Kilogram,,spec,否
+mol/m3,mole per cubic meter,,spec,否
+mol/s,mole per second,,spec,否
+mole per kilogram and second,mol/(kg.s),mol/kg/s,spec,否
+mosm/L,milliosmole per liter,,spec,否
+ms,millisecond,,spec,否
+nanogram per kilogram and 8-hour shift,ng/(8.h.kg),ng/kg/(8.h),spec,否
+nanogram per kilogram and day,ng/(kg.d),ng/kg/d,spec,否
+nanogram per kilogram and hour,ng/(kg.h),ng/kg/h,spec,否
+nanogram per kilogram and minute,ng/(kg.min),ng/kg/min,spec,否
+ng,nanogram,,spec,否
+ng/(8.h),nanogram per 8-hour shift,,spec,否
+ng/L,nanogram per liter,,spec,否
+ng/d,nanogram per day,,spec,否
+ng/h,nanogram per hour,,spec,否
+ng/kg,nanogram per kilogram,,spec,否
+ng/m2,nanogram per square meter,,spec,否
+ng/mL,nanogram per milliliter,,spec,否
+ng/min,nanogram per minute,,spec,否
+ng/s,nanogram per second,,spec,否
+nkat,nanokatal,,spec,否
+nm,nanometer,,spec,否
+nmol/s,nanomole per second,,spec,否
+ns,nanosecond,,spec,否
+osm,osmole,chemical,essence,否
+osm/L,osmole per liter,,spec,否
+osm/kg,osmole per kilogram,,spec,否
+pA,picoampere,,spec,否
+pH,pH,acidity,spec,否
+pT,picotesla,,spec,否
+pc,parsec,iso1000,essence,否
+per gram of creatinine,/g{creat},/g,spec,否
+per gram of hemoglobin,/g{HGB},/g,spec,否
+per gram of total nitrogen,/g{tot'nit},/g,spec,否
+per gram of total protein,/g{tot'ptot},/g,spec,否
+per gram of wet tissue,/g{wet'tis},/g,spec,否
+per kilogram body weight,/kg{body'wt},/kg,spec,否
+pg,picogram,,spec,否
+pg/L,picogram per liter,,spec,否
+pg/mL,picogram per milliliter,,spec,否
+ph,phot,cgs,essence,否
+pkat,picokatal,,spec,否
+pm,picometer,,spec,否
+pmol,picomole,,spec,否
+ps,picosecond,,spec,否
+psi,pound per square inch,pressure,spec,否
+rad,radian,plane angle,spec,否
+s,second,time,spec,否
+sb,stilb,cgs,essence,否
+sph,sphere,misc,essence,否
+sr,steradian,si,essence,否
+st,stere,misc,essence,否
+t,tonne,iso1000,essence,否
+tbl.,tablets,number,spec,否
+ten liter per minute (dekaliter per minute),10.L/min,daL/min,spec,否
+ten liter per minute and square meter (dekaliter per minute and square meter),10.L/(min.m2),daL/min/m2,spec,否
+tex,tex,heat,essence,否
+thousand cubic millimeter,10*3/mm3,/nL,spec,否
+thousand per liter,10*3/L,/mL,spec,否
+thousand per milliliter,10*3/mL,/uL,spec,否
+thousand red blood cells,10*3.{RBC},10*3,spec,否
+tot.,particles total count,number,spec,否
+trillion per liter,10*12/L,/pL,spec,否
+u,unified atomic mass unit,iso1000,essence,否
+uV,microvolt,,spec,否
+u[iU],micro international unit,,spec,否
+ueq,microequivalents,,spec,否
+ug,microgram,,spec,否
+ug/(8.h),microgram per 8-hour shift,,spec,否
+ug/L,microgram per liter,,spec,否
+ug/d,microgram per day,,spec,否
+ug/dL,microgram per deciliter,,spec,否
+ug/g,microgram per gram,,spec,否
+ug/h,microgram per hour,,spec,否
+ug/kg,microgram per kilogram,,spec,否
+ug/kg/(8.h),microgram per kilogram and 8-hour shift,,spec,否
+ug/m2,microgram per square meter,,spec,否
+ug/min,microgram per minute,,spec,否
+ukat,microkatal,,spec,否
+um,micrometer,,spec,否
+umol,micromole,,spec,否
+umol/L,micromole per liter,,spec,否
+umol/d,micromole per day,,spec,否
+umol/min,micromole per minute,,spec,否
+us,microsecond,,spec,否
+wk,week,iso1000,essence,否
+°,degree,plane angle,spec,否
+°C,degree Celsius,temperature,spec,否
+°F,degree Fahrenheit,temperature,spec,否
+°R,degree Rankine,temperature,spec,否
+°Ré,degree Réaumur,temperature,spec,否
+Å,Ångström,length,spec,否
+Ω,ohm,electric resistance,spec,否
+ε 0,permittivity of vacuum,electric permittivity,spec,否
+μ 0,permeability of vacuum,magnetic permeability,spec,否
+“ + ” | “ - ”,< sign >,::=,spec,否
+“ / ”< term > | < term >,< main-term >,::=,spec,否
+“ 0 ” | “ 1 ” | “ 2 ” | “ 3 ” | “ 4 ” | “ 5 ” | “ 6 ” | “ 7 ” | “ 8 ” | “ 9 ”,< digit >,::=,spec,否
+“ { ”< ANNOTATION-STRING >“ } ”,< annotation >,::=,spec,否

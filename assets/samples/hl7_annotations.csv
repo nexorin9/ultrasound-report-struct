@@ -1,0 +1,4 @@
+hl7_file,expected_study_no,expected_patient_id,expected_message_type,expected_obr_date,expected_findings_text,expected_item_count,expected_error_code
+hl7/sample-hl7-01.hl7,sample-hl7-01,PID-EXAMPLE,ORU^R01,202603,左肾积水 3.2cm,1,
+hl7/sample-hl7-02.hl7,sample-hl7-02,PID-EXAMPLE,ORU^R01,202603,左侧输尿管内径 0.6cm\n膀胱残余尿量 120ml,2,
+hl7/sample-hl7-03.hl7,sample-hl7-03,PID-EXAMPLE,ORU^R01,202603,,0,HL7_SEGMENT_MISSING

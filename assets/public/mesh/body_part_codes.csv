@@ -1,0 +1,7 @@
+project_part_key,mesh_term,mesh_ui,preferred_term,synonyms,year_introduced,source_url
+kidney.left,Kidney,D007668,Kidney,Kidneys,1963,https://www.ncbi.nlm.nih.gov/mesh/?term=Kidney
+kidney.right,Kidney,D007668,Kidney,Kidneys,1963,https://www.ncbi.nlm.nih.gov/mesh/?term=Kidney
+kidney.bilateral,Kidney,D007668,Kidney,Kidneys,1963,https://www.ncbi.nlm.nih.gov/mesh/?term=Kidney
+ureter.left,Ureter,D014513,Ureter,Ureters,,https://www.ncbi.nlm.nih.gov/mesh/?term=Ureter
+ureter.right,Ureter,D014513,Ureter,Ureters,,https://www.ncbi.nlm.nih.gov/mesh/?term=Ureter
+bladder,Urinary Bladder,D001743,Urinary Bladder,"Bladder, Urinary|Bladder|Bladder Detrusor Muscle|Bladder Detrusor Muscles|Detrusor Muscle, Bladder|Detrusor Muscles, Bladder|Detrusor Urinae",2007,https://www.ncbi.nlm.nih.gov/mesh/?term=Urinary+Bladder

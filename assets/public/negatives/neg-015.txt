@@ -1,0 +1,10 @@
+# source: PMC13657566 (Annals of Medicine and Surgery)
+# license: creativecommons.org/licenses/by-nc-nd/4.0
+# title: Complex sclerosing lesions of the breast mimicking carcinoma: diagnostic pitfalls and the decisive role of immunohistochemistry
+
+FINDINGS · Results
+All three lesions demonstrated imaging features highly suspicious for malignancy on ultrasound, mammography, and magnetic resonance imaging. Core-needle biopsy yielded inconclusive or misleading results, including atypical ductal proliferation and suspected invasive carcinoma, prompting surgical excision. Final pathological examination confirmed CSLs in two patients and breast secretory carcinoma in one patient. Immunohistochemical analysis – particularly the assessment of myoepithelial markers such as p63 and calponin – played a decisive role in distinguishing benign CSL from invasive disease. No recurrence or disease progression was observed during follow-up.
+
+CONCLUSION · Conclusions
+CSLs represent a well-recognized diagnostic pitfall in breast practice due to their close resemblance to carcinoma on imaging and in limited biopsy samples. Comprehensive histopathological evaluation, supported by appropriate immunohistochemistry, is essential to establish an accurate diagnosis, guide surgical decision-making, and avoid overtreatment.
+

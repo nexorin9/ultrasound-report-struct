@@ -1,0 +1,33 @@
+[package]
+name = "ultrasound-report-struct"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.74"
+description = "超声报告结构化系统：把超声工作站投递的自由文本 / HL7 报告解析成院内口径的结构化测值台账，与 RIS 同侧历史值对拍，经医师确认后回写 EMR。"
+license = "MIT"
+readme = "README.md"
+publish = false
+
+[[bin]]
+name = "ultrasound-report-struct"
+path = "src/main.rs"
+
+[dependencies]
+# 报文与状态结构
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+# 报告正文抽取
+regex = "1.13"
+# 出站 HTTPS（RIS 读 / EMR 写 / 企微推），纯 Rust，不依赖系统 OpenSSL
+ureq = "2.12"
+rustls = { version = "0.23", default-features = false, features = ["ring", "std", "tls12", "logging"] }
+# 幂等键与审计摘要哈希
+sha2 = "0.10"
+# 状态与审计的事务存储
+rusqlite = { version = "0.32", features = ["bundled"] }
+encoding_rs = "0.8.35"
+
+[profile.release]
+opt-level = 2
+lto = "thin"
+strip = true

@@ -1,0 +1,5 @@
+MSH|^~\&|ULTRASOUND-STATION|ULTRASOUND-ROOM|RIS|RIS-HOSPITAL|202603||ORU^R01|sample-hl7-02|P|2.5.1
+PID|||PID-EXAMPLE^^^HOSPITAL-MAIN^MR||脱敏|||U
+OBR|1||sample-hl7-02||||202603||||||||||||||||||F
+OBX|1|TX|URETER^内径^L||左侧输尿管内径 0.6cm||||||F
+OBX|2|TX|BLADDER^残余尿量^L||膀胱残余尿量 120ml||||||F

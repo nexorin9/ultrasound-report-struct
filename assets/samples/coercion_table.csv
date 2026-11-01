@@ -1,0 +1,38 @@
+value_raw,unit_raw,expected_path,expected_value_si,expected_unit_code,note
+3.2,cm,UnitConvert,32,mm,长度族：厘米→毫米（sample-uro-01）
+2.8,cm,UnitConvert,28,mm,长度族：厘米→毫米（sample-uro-01）
+0.6,cm,UnitConvert,6,mm,长度族：厘米→毫米（sample-uro-07）
+0.7,cm,UnitConvert,7,mm,长度族：厘米→毫米（sample-uro-07）
+9.2,cm,UnitConvert,92,mm,长度族：厘米→毫米（sample-uro-08）
+4.1,cm,UnitConvert,41,mm,长度族：厘米→毫米（sample-uro-22）
+85,mm,UnitConvert,85,mm,长度族目标口径即毫米（族内换算因子为 1）
+18,mm,UnitConvert,18,mm,长度族目标口径即毫米（sample-uro-03）
+3.2,厘米,UnitConvert,32,mm,中文单位名归一到 UCUM 码（sample-uro-11）
+1,L,UnitConvert,1000,mL,容量族：升→毫升
+0.5,L,UnitConvert,500,mL,容量族：升→毫升
+120,ml,UnitConvert,120,mL,单位大小写不敏感（ml→mL）（sample-uro-06）
+35,ml,UnitConvert,35,mL,单位大小写不敏感（sample-uro-21）
+120,毫升,UnitConvert,120,mL,中文单位名归一到 UCUM 码（sample-uro-11）
+3.2×2,cm,DirectScale,64,mm,原值词面自带倍率：3.2×2 cm → 3.2×2×10 mm
+2.5×2,cm,DirectScale,50,mm,原值词面自带倍率
+1.5×4,cm,DirectScale,60,mm,原值词面自带倍率
+0.8×3,cm,DirectScale,24,mm,原值词面自带倍率
+3.2×0.5,cm,DirectScale,16,mm,原值词面自带倍率（小于 1 的倍率）
+120×2,ml,DirectScale,240,mL,原值词面自带倍率（容量族）
+0.6×2,cm,DirectScale,12,mm,原值词面自带倍率
+3.2,cm3,Composite,3.2,mL,复合量纲：量纲还原 + 单位换算两步（sample-uro-12）
+2.5,cm3,Composite,2.5,mL,复合量纲：量纲还原 + 单位换算两步
+0.5,cm3,Composite,0.5,mL,复合量纲：量纲还原 + 单位换算两步
+10,cm3,Composite,10,mL,复合量纲：量纲还原 + 单位换算两步
+120,cm3,Composite,120,mL,复合量纲：量纲还原 + 单位换算两步
+1.5,cm3,Composite,1.5,mL,复合量纲：量纲还原 + 单位换算两步
+8,cm3,Composite,8,mL,复合量纲：量纲还原 + 单位换算两步
+25,cm3,Composite,25,mL,复合量纲：量纲还原 + 单位换算两步
+3.2,xx,None,,,未知单位：查不到合法路径，不产出数值
+2.8,cc,None,,,未知单位（cc）：不默认按厘米处理（sample-uro-05）
+5,um,None,,,未知单位
+1.5,g,None,,,未知单位（质量族不在首版范围）
+7,mm2,None,,,未知单位
+3,dl,None,,,未知单位
+2.2,in,None,,,未知单位
+4.5,cmx,None,,,未知单位

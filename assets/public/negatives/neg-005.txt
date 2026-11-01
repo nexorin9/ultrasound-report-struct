@@ -1,0 +1,10 @@
+# source: PMC13662747 (Frontiers in Endocrinology)
+# license: creativecommons.org/licenses/by/4.0
+# title: Long-term limb salvage and functional recovery in advanced Charcot neuroarthropathy complicated by a non-healing diabetic foot ulcer: a CARE-compliant case report
+
+FINDINGS · Case presentation
+A 43-year-old man with poorly controlled type 2 diabetes mellitus and diabetic peripheral neuropathy presented with advanced Charcot neuroarthropathy of the left foot, complicated by a chronic, non-healing dorsal diabetic foot ulcer (3 × 4 cm; Wagner Grade 3; University of Texas Grade 3-D) and a lateral draining sinus. During the earlier course of the disease, magnetic resonance imaging demonstrated extensive Charcot-related bony destruction with findings suggestive of secondary osteomyelitis. The diagnosis was made by the treating podiatric surgeon based on clinical and imaging findings. Microbiological and histopathological confirmation was not available. Despite prior hospitalization, incision and drainage, and approximately 15 days of intravenous antibiotic therapy, satisfactory wound healing was not achieved.
+
+CONCLUSION · Conclusion
+This case describes a favorable long-term outcome, including limb preservation and functional recovery, following multimodal conservative management in a patient with advanced Charcot neuroarthropathy complicated by chronic ulceration. Given the single-case design and the simultaneous use of multiple therapeutic interventions, the independent contribution of individual treatment components cannot be determined. Further prospective studies are warranted.
+

@@ -1,0 +1,10 @@
+# source: PMC13715085 (BMC Infectious Diseases)
+# license: creativecommons.org/licenses/by-nc-nd/4.0
+# title: Clinical characteristics, diagnostic challenges, and management of pulmonary actinomycosis: a 10-year retrospective cohort study
+
+FINDINGS · Results
+A total of 69 patients were included. The median age was 56 years (IQR 25–75 : 44–60), and 66.7% were male. Overall, 78.3% of patients had at least one comorbidity, most commonly structural lung diseases. The most frequent presenting symptoms were cough (43.5%) and hemoptysis (36.2%). Thoracic CT most commonly demonstrated consolidation, bronchiectasis, mediastinal lymphadenopathy, cavitary lesions, and pulmonary nodules. PET-CT frequently showed high FDG uptake, with a mean SUVmax of 9.07 ± 4.40, thereby limiting its specificity in differentiating PA from malignancy. Bronchoscopic procedures represented the most common diagnostic method. The median interval from initial presentation to treatment initiation was 82 days (IQR 25–75 : 42–164). The median duration of oral antibiotic treatment was 105 days (IQR 25–75 : 57–180). Compared with medically treated patients, those undergoing surgical intervention more frequently presented with cavitary lesions and hemoptysis and tended to have a longer interval before treatment initiation. During follow-up, no deaths were directly attributable to PA, and no recurrence was observed among evaluable patients.
+
+CONCLUSION · Conclusions
+PA remains a major diagnostic challenge because of its heterogeneous clinical and radiological presentation. PET-CT appears to provide limited additional diagnostic value because of the high FDG uptake frequently observed in PA lesions. Management strategies should be individualized according to clinical presentation, radiological findings, comorbidities, and the potential need for surgical intervention. Larger multicenter studies are needed to better define optimal diagnostic and treatment approaches for this rare disease.
+
